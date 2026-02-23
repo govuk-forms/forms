@@ -31,23 +31,27 @@ This is a write up of the screens that are developed or in development for our f
 
 <br>
 
-## Design tested in prototype
+## Designs for development  
 
 ### Create a form - task list  
 
-![Create a form task list page. Screenshot](./screenshots-v2/001-create-a-form-new-form.png)
-**   
+![Create a form task list page. Screenshot](./screenshots-v2/001-create-a-form-new-form.png) 
+*Create a form task list page showing 1 of 9 tasks marked completed.*   
 
-### Add a Welsh version of your form - new form without any content 
+### Add a Welsh version of your form - new form without any content  
 
-![Empty Add a Welsh version of your form page. Screenshot](./screenshots-v2/002-add-a-welsh-version-new-form.png)
-**  
+![Empty Add a Welsh version of your form page. Screenshot](./screenshots-v2/002-add-a-welsh-version-new-form.png) 
+*Add a Welsh version of your form showing that no tasks have been completed in English yet.*  
 
 ### Create a form - task list with Welsh version saved success banner  
 
-![Create a form task list page with saved Welsh success banner. Screenshot](./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png)
-**  
+![Create a form task list page with saved Welsh success banner. Screenshot](./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png) 
+*Create a form task list page showing a green success banner, “The Welsh version of your form has been saved”.*  
 
+### Add a Welsh version of your form - saved Welsh with delete option  
+
+![Empty Add a Welsh version of your form page with delete button. Screenshot](./screenshots-v2/004-add-a-welsh-version-saved-welsh-version.png) 
+*Add a Welsh version of your form showing no English content yet but with a red “Delete Welsh version” button after the Welsh was ‘saved’.*  
 
 <br>
 
