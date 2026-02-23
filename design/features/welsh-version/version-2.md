@@ -33,10 +33,20 @@ This is a write up of the screens that are developed or in development for our f
 
 ## Design tested in prototype
 
-### Your forms - group view  
+### Create a form - task list  
 
-![Account applications trial group page. Screenshot](./screenshots-v1/001%20-%20Account%20applications%20-%20Trial%20group.png)
-*Account applications group view. Showing our test form, “Register for an account” in the forms table list.*   
+![Create a form task list page. Screenshot](./screenshots-v2/001-create-a-form-new-form.png)
+**   
+
+### Add a Welsh version of your form - new form without any content 
+
+![Empty Add a Welsh version of your form page. Screenshot](./screenshots-v2/002-add-a-welsh-version-new-form.png)
+**  
+
+### Create a form - task list with Welsh version saved success banner  
+
+![Create a form task list page with saved Welsh success banner. Screenshot](./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png)
+**  
 
 
 <br>
