@@ -53,8 +53,14 @@ This is a write up of the screens that are developed or in development for our f
 ![Empty Add a Welsh version of your form page with delete button. Screenshot](./screenshots-v2/004-add-a-welsh-version-saved-welsh-version.png) 
 *Add a Welsh version of your form showing no English content yet but with a red “Delete Welsh version” button after the Welsh was ‘saved’.*  
 
+ 
 ![Are you sure you want to delete the Welsh version of your form page. Screenshot](./screenshots-v2/005-delete-welsh-version.png) 
 *Are you sure you want to delete the Welsh version of your form question page with ‘yes’ and ‘no’ radio options.*  
+
+ 
+![Create a form task list page with deleted Welsh success banner. Screenshot](./screenshots-v2/006-create-a-form-deleted-welsh-version.png) 
+*Create a form task list page showing a green success banner, “The Welsh version of your form has been deleted”.*  
+
 
 <br>
 
