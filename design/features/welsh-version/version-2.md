@@ -62,6 +62,16 @@ This is a write up of the screens that are developed or in development for our f
 *Create a form task list page showing a green success banner, “The Welsh version of your form has been deleted”.*  
 
 
+### Add a Welsh version of your form - full English form created    
+
+![Empty Add a Welsh version of your form page. Screenshot](./screenshots-v2/011-add-a-welsh-version-complete-form.png) 
+*Add a Welsh version of your form showing all the English tasks are complete with empty inputs for each bit of content.*  
+
+  
+![Completed Add a Welsh version of your form page. Screenshot](./screenshots-v2/011-add-a-welsh-version-complete-translations.png) 
+*Add a Welsh version of your form showing all the inputs have a Welsh translation and have been saved now showing a red “Delete Welsh version” button.*  
+
+
 <br>
 
 ## Form filler screens 
