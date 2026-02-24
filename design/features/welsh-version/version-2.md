@@ -15,7 +15,6 @@ ___
 - [What](#what)
 - [Designs for development](#designs-for-development)
 - [Form filler screens](#form-filler-screens)
-- [Research](#research)
 
 ___
 
@@ -97,6 +96,19 @@ Task list screen showing a green success banner, “The Welsh version of your fo
   
 <img alt="Create a form task list page showing Welsh version saved and marked completed. Screenshot" src="./screenshots-v2/012-create-a-form-complete-welsh.png" width="500">  
 Task list screen showing a green success banner, “The Welsh version of your form has been saved and marked complete”.  
+
+<br>
+
+
+### Making your form live - with Welsh version    
+
+<img alt="Make your form live page. Screenshot" src="./screenshots-v2/013-make-form-live.png" width="500">  
+Current page to confirm making your form live. This does not currently include any content relevant to Welsh, this is in progress.   
+
+<br>
+
+<img alt="Your form is live confirmation page. Screenshot" src="./screenshots-v2/014-form-live.png" width="500">  
+Current page confirming a form being made live. This version is the current version. It does not currently include any content relevant to Welsh.  
 
 <br>
 
