@@ -1,5 +1,9 @@
 # GOV.UK Forms
 
+GOV.UK Forms is a platform that makes it easy for government service teams to create accessible online forms. You can find out more about it on our product site: [www.gov.uk/forms](https://www.forms.service.gov.uk/)
+
+## This repository
+
 We record our work and decisions in this repo.
 
 You can find:
@@ -10,7 +14,7 @@ You can find:
 - user research findings in [research/](research/)
 - documentation of our designs in [design/](design/)
 
-## Our repositories
+## Our other repositories
 
 You can find our code in the following repositories:
 - [forms-admin](https://github.com/alphagov/forms-admin) - our application for building forms.
