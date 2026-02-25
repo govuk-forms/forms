@@ -4,7 +4,7 @@
 
 Date created: 23 February 2026   
 
-In development  
+Released  
 
 ___
 
@@ -20,13 +20,25 @@ ___
 
 <br>
 
-## What
+## What  
 
-After our round of testing we agreed on what our first release for Welsh versions would look like. 
+After our round of testing we agreed on what our first release for Welsh versions would look like.  
 
-The team agreed we could go live without finishing all the designed parts of the journey and without requiring further testing of ceratin parts of the journey as these were considered low risk. 
+The team agreed we could go live without finishing all the designed parts of the journey and without requiring further testing of ceratin parts of the journey as these were considered low risk.  
 
-This is a write up of the screens that are developed or in development for our first release in Q4 of 2025/26. 
+This is a write up of the screens that were developed for our first release at the start of 2026.  
+
+
+### Things to note  
+
+There are a number of key screens, journeys and parts of the feature that were not released as part of the first version. These include:  
+
+- markdown editor not in place on the Weslh version page  
+- make your form live pages don’t currently show any Welsh content
+  - there is also a next step iteration for separate Welsh and English versions going live that were not part of this release    
+- live read-only view screens not implemented  
+- archive a Welsh version of your form not developed  
+- group page not showing the forms with a Welsh version  
 
 <br>
 
