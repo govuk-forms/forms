@@ -78,6 +78,9 @@ The form creator can still technically save the page meaning a Welsh verison ‘
 <img alt="Create a form task list page with saved Welsh success banner. Screenshot" src="./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png" width="500">  
 Create a form task list page showing a green success banner, “The Welsh version of your form has been saved”.  
 
+   
+The optional Welsh task is now marked as ‘in progress’. This can be the case with or without content being added to the Welsh page until the Welsh version is deleted.  
+
 <br>  
 
 
