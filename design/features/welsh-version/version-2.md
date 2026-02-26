@@ -56,12 +56,10 @@ Through our round of testing we were able to confirm the introduction of a new o
 
 The new section content reads: 
 
-> 4. Create a Welsh version of your form (optional)  
+> 4\. Create a Welsh version of your form (optional)  
 > Add a Welsh version of your form 
 
 The task link has a grey ‘optional’ tag to it’s right. This state will only appear if no Welsh has been added to the form.  
-
-<br>  
 
 
 ### Add a Welsh version of your form - new form without any content  
