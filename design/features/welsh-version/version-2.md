@@ -50,7 +50,16 @@ There are a number of key screens, journeys and parts of the feature that were n
 ### Create a form - task list  
 
 <img alt="Create a form task list page. Screenshot" src="./screenshots-v2/001-create-a-form-new-form.png" width="500">  
-Create a form task list page showing 1 of 9 tasks marked completed.  
+Create a form task list page showing 1 of 9 tasks marked completed.
+
+Through our round of testing we were able to confirm the introduction of a new optional section to provide a task to add Welsh translations alongside the English content added to a form. 
+
+The new section content reads: 
+
+> 4. Create a Welsh version of your form (optional)  
+> Add a Welsh version of your form 
+
+The task link has a grey ‘optional’ tag to it’s right. This state will only appear if no Welsh has been added to the form.  
 
 <br>  
 
