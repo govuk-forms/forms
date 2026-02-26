@@ -65,9 +65,9 @@ The task link has a grey ‘optional’ tag to it’s right. This state will onl
 ### Add a Welsh version of your form - new form without any content  
 
 <img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/002-add-a-welsh-version-new-form.png" width="500">  
+
 Add a Welsh version of your form showing that no tasks have been completed in English yet.  
 
-  
 After the form has just been completed the add a Welsh version of your form page can still be accessed. It just shows placeholder text at this point to say that nothing has been added yet.  
 
 The form creator can still technically save the page meaning a Welsh verison ‘exists’ even though all the inputs may be empty at this point. 
@@ -76,60 +76,62 @@ The form creator can still technically save the page meaning a Welsh verison ‘
 ### Create a form - task list with Welsh version saved success banner  
 
 <img alt="Create a form task list page with saved Welsh success banner. Screenshot" src="./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png" width="500">  
-Create a form task list page showing a green success banner, “The Welsh version of your form has been saved”.  
 
+Create a form task list page showing a green success banner, “The Welsh version of your form has been saved”.  
    
 The optional Welsh task is now marked as ‘in progress’. This can be the case with or without content being added to the Welsh page until the Welsh version is deleted.  
-
-<br>  
 
 
 ### Deleting a Welsh version   
 
 <img alt="Empty Add a Welsh version of your form page with delete button. Screenshot" src="./screenshots-v2/004-add-a-welsh-version-saved-welsh-version.png" width="500">  
+
 Add a Welsh version of your form showing no English content yet but with a red “Delete Welsh version” button after the Welsh was ‘saved’.  
 
-<br>  
+To remove the Welsh version, whether empty or full, the form creator can use the new ‘delete’ button.  
 
+<br>  
   
 <img alt="Are you sure you want to delete the Welsh version of your form page. Screenshot" src="./screenshots-v2/005-delete-welsh-version.png" width="500">  
+
 Are you sure you want to delete the Welsh version of your form question page with ‘yes’ and ‘no’ radio options.  
 
-<br>  
-
+<br>
   
 <img alt="Create a form task list page with deleted Welsh success banner. Screenshot" src="./screenshots-v2/006-create-a-form-deleted-welsh-version.png" width="500">  
+
 Create a form task list page showing a green success banner, “The Welsh version of your form has been deleted”.  
 
-<br>  
+The optional Welsh task has been reset to show the grey ‘optional’ tag.  
 
   
 ### Add a Welsh version of your form - full English form created    
 
 <img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/011-add-a-welsh-version-complete-form.png" width="500">  
+
 Add a Welsh version of your form showing all the English tasks are complete with empty inputs for each bit of content.  
 
 <br>  
 
   
 <img alt="Completed Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/011-add-a-welsh-version-complete-translations.png" width="500">  
+
 Add a Welsh version of your form showing all the inputs have a Welsh translation and have been saved now showing a red “Delete Welsh version” button.  
 
-<br>  
 
   
 ### Create a form - saved and completed Welsh version    
 
 <img alt="Create a form task list page showing Welsh version changes saved. Screenshot" src="./screenshots-v2/012-create-a-form-complete-form.png" width="500">  
+
 Task list screen showing a green success banner, “The Welsh version of your form has been saved”.    
 
 <br>   
 
   
 <img alt="Create a form task list page showing Welsh version saved and marked completed. Screenshot" src="./screenshots-v2/012-create-a-form-complete-welsh.png" width="500">  
+
 Task list screen showing a green success banner, “The Welsh version of your form has been saved and marked complete”.  
- 
-<br>   
  
   
 ## Form filler screens 
@@ -137,33 +139,35 @@ Task list screen showing a green success banner, “The Welsh version of your fo
 ### Previewing a form  
   
 <img alt="First question page in a form with more complex guidance before the question. Screenshot" src="./screenshots-v2/1001-welsh-guidance-preview.png" width="500">  
+
 First question page in a form with more complex guidance before the question and ‘Cymraeg’ language toggle selected.  
   
 <br>  
 
   
 <img alt="Date of birth question page in Welsh. Screenshot" src="./screenshots-v2/1002-welsh-date-preview.png" width="500">  
+
 Date of birth question page in a form. The ‘Cymraeg’ language toggle is selected.  
 
 <br>  
 
   
 <img alt="Address question page in Welsh. Screenshot" src="./screenshots-v2/1003-welsh-address-preview.png" width="500">  
+
 Address question page in a form. The ‘Cymraeg’ language toggle is selected.  
 
 <br>  
 
   
 <img alt="Check your answers before submitting page in Welsh. Screenshot" src="./screenshots-v2/1005-welsh-cya-open-email-preview.png" width="500">  
+
 Check your answers before submitting page in a form. The ‘Cymraeg’ language toggle is selected.  
 
 <br>  
 
-  
 <img alt="Your form has been submitted page in Welsh. Screenshot" src="./screenshots-v2/1006-welsh-confirmation-preview.png" width="500">  
-Your form has been submitted page in a form. The ‘Cymraeg’ language toggle is selected.  
 
-<br>  
+Your form has been submitted page in a form. The ‘Cymraeg’ language toggle is selected.  
 
   
 ### Previewing a form with English content but no Welsh
@@ -172,8 +176,7 @@ Your form has been submitted page in a form. The ‘Cymraeg’ language toggle i
 First question page in a form with guidance showing the English content and ‘English’ language toggle selected.  
 
 <br>  
-
-   
+  
 <img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./screenshots-v2/009-previewing-form-without-welsh-translations-but-welsh-version-welsh.png" width="500">  
 First question page in a form with guidance showing the English content while the ‘Welsh’ language toggle is selected.  
 
