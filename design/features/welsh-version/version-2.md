@@ -67,6 +67,9 @@ The task link has a grey ‘optional’ tag to it’s right. This state will onl
 <img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/002-add-a-welsh-version-new-form.png" width="500">  
 Add a Welsh version of your form showing that no tasks have been completed in English yet.  
 
+After the form has just been completed the add a Welsh version of your form page can still be accessed. It just shows placeholder text at this point to say that nothing has been added yet. 
+The form creator can still technically save the page meaning a Welsh verison ‘exists’ even though all the inputs may be empty at this point.
+
 <br>  
 
 
