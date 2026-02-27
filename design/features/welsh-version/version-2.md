@@ -278,11 +278,13 @@ Your form has been submitted page in a form. The ‘Cymraeg’ language toggle i
 ### Previewing a form with English content but no Welsh
 
 <img alt="First question page in a form with guidance showing the English version. Screenshot" src="./screenshots-v2/009-previewing-form-without-welsh-translations-but-welsh-version-english.png" width="500">  
+
 First question page in a form with guidance showing the English content and ‘English’ language toggle selected.  
 
 <br>  
   
 <img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./screenshots-v2/009-previewing-form-without-welsh-translations-but-welsh-version-welsh.png" width="500">  
+
 First question page in a form with guidance showing the English content while the ‘Welsh’ language toggle is selected.  
 
 <br>  
