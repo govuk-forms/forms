@@ -66,9 +66,33 @@ The task link has a grey ‘optional’ tag to it’s right. This state will onl
 
 <img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/002-add-a-welsh-version-new-form.png" width="500">  
 
-Add a Welsh version of your form showing that no tasks have been completed in English yet.  
+Add a Welsh version of your form page showing that no tasks have been completed in English yet.  
+
+Under the page heading there’s a table component titled “Form name”. The table has 2 columns titled, “English content” and “Welsh content”.  
+The next row shows the English form name added by the form creator on the left and a text input labelled “Enter your Welsh form name” on the right.  
+This is a change from the original grey bordered tables from the tested iteration. We found that some form creators weren’t sure that they could change or add their translations into the boxes here, with one thinking they needed to go to aother page to add it. We believe that using the standard inputs on this screen will help make it obvious to form creators that this is the screen they should add translations to.  
 
 After the form has just been completed the add a Welsh version of your form page can still be accessed. It just shows placeholder text at this point to say that nothing has been added yet.  
+
+With a section headed for each part of their form, they read:
+
+> Form questions  
+> No questions have been added to the form yet.  
+>   
+> Declaration for people to agree to  
+> No declaration was added to the form.  
+>   
+> Information about what happens next  
+> No information about what happens next was added to the form yet.  
+>   
+> Payment link  
+> No payment link has been added to the form.  
+>   
+> Link to privacy information for this form  
+> No privacy information has been added to the form yet.  
+>   
+> Contact details for support  
+> No contact details for support have been added to the form yet.  
 
 The form creator can still technically save the page meaning a Welsh verison ‘exists’ even though all the inputs may be empty at this point. 
 
