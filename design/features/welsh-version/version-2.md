@@ -135,12 +135,93 @@ The optional Welsh task has been reset to show the grey ‘optional’ tag.
 
 Add a Welsh version of your form showing all the English tasks are complete with empty inputs for each bit of content.  
 
+There is now a “Preview this form in Welsh” link beneath the page heading. This is designed to take the form creator to their form preview with the Welsh language toggle selected.  
+In it’s current state, without any Welsh content, they would be taken to the Welsh version but only see the English content they added with the Welsh page furniture we automatically add.  
+
+The page is built up of different tables which should the English content with a Welsh content input alongside.  
+
+The first table is captioned “Form name”. It has 2 columns, one title “English content” and one “Welsh content”.  
+The next row shows the English form name added by the form creator on the left and a text input labelled “Enter you Welsh form name” on the right.  
+
+There are then 6 tables for each question added to the form. These have 3 columns where the first column is untitled.  
+
+Question 1’s table shows a 3 column table:  
+
+> Page heading : How to complete this form : Enter Welsh page heading (labelled input)
+>  
+> Guidance text : (This shows the markdown added in English including the markdown syntax) : Enter Welsh guidance text (labelled input)
+>  
+> Question text : What is your full name? : Enter Welsh guidance text (labelled input)  
+
+Question 2’s table shows a 3 column table:  
+
+> Question text : What is your date of birth? : Enter Welsh question text (labelled input)   
+>  
+> Hint text : For example, 20 3 2000 : Enter Welsh hint text (labelled input)  
+
+Question 3’s table shows a 3 column table:  
+
+> Question text : What is your address? : Enter Welsh question text (labelled input)  
+
+Question 4’s table shows a 3 column table:  
+
+> Question text : What is your phone number? : Enter Welsh question text (labelled input)  
+
+Question 5’s table shows a 3 column table:  
+
+> Question text : What is your National Insurance number? : Enter Welsh question text (labelled input)  
+>  
+> Hint text : It’s on your National Insurance card, benefit letter, payslip or P60. For example, QQ 65 43 21 C. : Enter Welsh hint text (labelled input)  
+
+Question 6’s table shows a 3 column table:  
+
+> Question text : If you live in Wales, would you like to hear from us in Welsh in future communications? : Enter Welsh question text (labelled input)  
+>  
+> Hint text : We will only use this if we contact you for more information. : Enter Welsh hint text (labelled input)  
+
+As part of this version we changed the list of options inputs to be a separate table of beneath the relevant question, in this case question 6. This is to make it more accessible to assistive tech users and allow us more flexibility going forward. We believe moving to this option covers the majority of form creators needs and keeps the table accessible. When we designed this option we wanted to be able to allow copy-pasting of lists that should automatically populate the table going down. This should simplify the amount of copying a form creator might need to do.  
+
+This table is captioned “Question 6’s list of options”. It shows a table with 2 columns, for English and Welsh content:  
+
+> Yes : Enter Welsh option 1 (labelled input)  
+>   
+> No : Enter Welsh option 2 (labelled input)  
+>   
+> Not applicable : Enter Welsh option 3 (labelled input)   
+
+Below the question tables are the other sections of the form that content can be added to by the form creator.  
+
+“Declaration for people to agree to” captioned table with 2 columns for English and Welsh content:  
+
+>  (English declaration from form fillers to agree to) : Enter your Welsh declaration (labelled textarea input)   
+
+“Information about what happens next” captioned table with 2 columns for English and Welsh content:  
+
+>  (English information about what happens next that form fillers see on the confirmation screen) : Enter information about what happens next in Welsh (labelled textarea input)  
+
+“Link to privacy information for this form” captioned table with 2 columns for English and Welsh content: 
+
+>  https://www.gov.uk/help/privacy-notices : Enter link to your Welsh privacy information (labelled textarea input)  
+
+“Contact details for support” captioned table with 3 columns, this first without content and the other 2 for English and Welsh content:  
+
+>  Text to describe the contact link : Our full contact details : Enter text to describe the contact link for Welsh support (labelled textarea input)  
+>    
+>  Online contact link : https://www.gov.uk/contact-us : Enter an online contact link for Welsh support (labelled textarea input)  
+
+The page ends with the “Have you finished adding your Welsh version?” question. It has hint text: “Selecting ‘Yes’ will mark this task as complete. You’ll still be able to make more changes if you need to.” There are 2 radios:  
+
+> Yes  
+> No, I’ll come back later  
+
+Finally there’s a green “Save and continue” button.  
+ 
 <br>  
 
   
 <img alt="Completed Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/011-add-a-welsh-version-complete-translations.png" width="500">  
 
-Add a Welsh version of your form showing all the inputs have a Welsh translation and have been saved now showing a red “Delete Welsh version” button.  
+Add a Welsh version of your form showing all the inputs have a Welsh translation in their corresponding input boxes. The Welsh content has been saved which means a red “Delete Welsh version” button now appears alongside the “Save and continue” button.  
 
 
   
