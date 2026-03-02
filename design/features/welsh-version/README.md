@@ -2,7 +2,7 @@
 
 ## Status  
 
-Current version: 1   
+Current version: 2 - iteration based on research  
 Date created: 17 November 2025    
 
 ___ 
