@@ -1,0 +1,299 @@
+# Add Welsh version of a form v2 - first release
+
+## Status
+
+Date created: 23 February 2026   
+
+Released  
+
+___
+
+## Contents
+
+- [Status](#status)
+- [Contents](#contents)
+- [What](#what)
+- [Designs for development](#designs-for-development)
+- [Form filler screens](#form-filler-screens)
+
+___
+
+<br>
+
+## What  
+
+After our round of testing we agreed on what our first release for Welsh versions would look like.  
+  
+The team agreed we could go live without finishing all the designed parts of the journey and without requiring further testing of certain parts of the journey as these were considered low risk.  
+  
+This is a write up of the screens that were developed for our first release at the start of 2026.  
+
+<br>  
+
+  
+### Things to note  
+
+There are a number of key screens, journeys and parts of the feature that were not released as part of the first version. These include:  
+
+- markdown editor not in place on the Welsh version page  
+- make your form live pages don’t currently show any content about the Welsh version
+  - there is also a next step iteration for making Welsh and English versions live at separate times that was not part of this release    
+- live read-only view screens not yet showing Welsh content
+- archive the Welsh version of your form not developed  
+- group page not showing the forms with a Welsh version  
+
+<br>  
+
+
+## Designs for development  
+
+### Create a form - task list  
+
+<img alt="Create a form task list page. Screenshot" src="./screenshots-v2/001-create-a-form-new-form.png" width="500">  
+Create a form task list page showing 1 of 9 tasks marked completed.
+
+Through our round of testing we were able to confirm the introduction of a new optional section to provide a task to add Welsh translations alongside the English content added to a form. 
+
+The new section content reads: 
+
+> 4\. Create a Welsh version of your form (optional)  
+> Add a Welsh version of your form 
+
+The task link has a grey ‘optional’ tag to its right. This state will only appear if no Welsh has been added to the form.  
+
+
+### Add a Welsh version of your form - new form without any content  
+
+<img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/002-add-a-welsh-version-new-form.png" width="500">  
+
+Add a Welsh version of your form page showing that no tasks have been completed in English yet.  
+
+Under the page heading there’s a table component titled “Form name”. The table has 2 columns titled, “English content” and “Welsh content”.  
+
+The next row shows the English form name added by the form creator on the left and a text input labelled “Enter your Welsh form name” on the right.  
+
+This is a change from the original grey bordered tables from the tested iteration. We found that some form creators weren’t sure that they could change or add their translations into the boxes here, with one thinking they needed to go to aother page to add it. We believe that using the standard inputs on this screen will help make it obvious to form creators that this is the screen they should add translations to.  
+
+After the form has just been created, the ‘add a Welsh version of your form‘ page can still be accessed. It just shows placeholder text at this point to say that nothing has been added yet.  
+
+There's a section with a heading for each part of the form, they read:
+
+> Form questions  
+> No questions have been added to the form yet.  
+>   
+> Declaration for people to agree to  
+> No declaration has been added to the form.  
+>   
+> Information about what happens next  
+> No information about what happens next has been added to the form yet.  
+>   
+> Payment link  
+> No payment link has been added to the form.  
+>   
+> Link to privacy information for this form  
+> No privacy information has been added to the form yet.  
+>   
+> Contact details for support  
+> No contact details for support have been added to the form yet.  
+
+The form creator can still technically save the page meaning a Welsh version ‘exists’ even though all the inputs may be empty at this point. 
+
+
+### Create a form - task list with Welsh version saved success banner  
+
+<img alt="Create a form task list page with saved Welsh success banner. Screenshot" src="./screenshots-v2/003-create-a-form-created-welsh-version-without-any-content.png" width="500">  
+
+Create a form task list page showing a green success banner, “The Welsh version of your form has been saved”.  
+   
+The optional Welsh task is now marked as ‘in progress’. This will display if the Welsh page is saved with or without content being added - unless the Welsh version is deleted.  
+
+
+### Deleting a Welsh version   
+
+<img alt="Empty Add a Welsh version of your form page with delete button. Screenshot" src="./screenshots-v2/004-add-a-welsh-version-saved-welsh-version.png" width="500">  
+
+’Add a Welsh version of your form‘ page showing no English content yet but with a red ’Delete Welsh version‘ button after the Welsh was ‘saved’.  
+
+To remove the Welsh version, whether empty or full, the form creator can use the new ‘delete’ button.  
+
+<br>  
+  
+<img alt="Are you sure you want to delete the Welsh version of your form page. Screenshot" src="./screenshots-v2/005-delete-welsh-version.png" width="500">  
+
+’Are you sure you want to delete the Welsh version of your form‘ question page with ‘yes’ and ‘no’ radio options.  
+
+<br>
+  
+<img alt="Create a form task list page with deleted Welsh success banner. Screenshot" src="./screenshots-v2/006-create-a-form-deleted-welsh-version.png" width="500">  
+
+’Create a form‘ task list page showing a green success banner, “The Welsh version of your form has been deleted”.  
+
+The optional Welsh task has been reset to show the grey ‘optional’ tag.  
+
+  
+### Add a Welsh version of your form - full English form created    
+
+<img alt="Empty Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/011-add-a-welsh-version-complete-form.png" width="500">  
+
+’Add a Welsh version of your form‘ page showing all the English content completed with empty Welsh inputs alongside each bit of content.  
+
+There is now a “Preview this form in Welsh” link beneath the page heading. This is designed to take the form creator to their form preview with the Welsh language toggle selected.
+
+In its current state, without any Welsh content, they would be taken to the Welsh version but only see the English content they added with the Welsh page furniture we automatically add.  
+
+The page is built up of different tables which show the English content with a Welsh content input alongside.  
+
+The first table is captioned “Form name”. It has 2 columns, one title “English content” and one “Welsh content”.  
+
+The next row shows the English form name added by the form creator on the left and a text input labelled “Enter you Welsh form name” on the right.  
+
+There are then 6 tables for each question added to the form. These have 3 columns where the first column is untitled.  
+
+Question 1’s table shows a 3 column table:  
+
+> Page heading : How to complete this form : Enter Welsh page heading (labelled input)
+>  
+> Guidance text : (This shows the markdown added in English including the markdown syntax) : Enter Welsh guidance text (labelled input)
+>  
+> Question text : What is your full name? : Enter Welsh question text (labelled input)  
+
+Question 2’s table shows a 3 column table:  
+
+> Question text : What is your date of birth? : Enter Welsh question text (labelled input)   
+>  
+> Hint text : For example, 20 3 2000 : Enter Welsh hint text (labelled input)  
+
+Question 3’s table shows a 3 column table:  
+
+> Question text : What is your address? : Enter Welsh question text (labelled input)  
+
+Question 4’s table shows a 3 column table:  
+
+> Question text : What is your phone number? : Enter Welsh question text (labelled input)  
+
+Question 5’s table shows a 3 column table:  
+
+> Question text : What is your National Insurance number? : Enter Welsh question text (labelled input)  
+>  
+> Hint text : It’s on your National Insurance card, benefit letter, payslip or P60. For example, QQ 65 43 21 C. : Enter Welsh hint text (labelled input)  
+
+Question 6’s table shows a 3 column table:  
+
+> Question text : If you live in Wales, would you like to hear from us in Welsh in future communications? : Enter Welsh question text (labelled input)  
+>  
+> Hint text : We will only use this if we contact you for more information. : Enter Welsh hint text (labelled input)  
+
+As part of this version we changed the list of options inputs to be a separate table beneath the relevant question, in this case question 6. This is to make it more accessible to assistive tech users and allow us more flexibility going forward. We believe moving to this option covers the majority of form creators needs and keeps the table accessible. When we designed this option we wanted to be able to allow copy-pasting of lists that should automatically populate the table going down. This should simplify the amount of copying a form creator might need to do.  
+
+This table is captioned “Question 6’s list of options”. It shows a table with 2 columns, for English and Welsh content:  
+
+> Yes : Enter Welsh option 1 (labelled input)  
+>   
+> No : Enter Welsh option 2 (labelled input)  
+>   
+> Not applicable : Enter Welsh option 3 (labelled input)   
+
+Below the question tables are the other sections of the form that content needs to be added to by the form creator.  
+
+“Declaration for people to agree to” captioned table with 2 columns for English and Welsh content:  
+
+>  (English declaration from form fillers to agree to) : Enter your Welsh declaration (labelled textarea input)   
+
+“Information about what happens next” captioned table with 2 columns for English and Welsh content:  
+
+>  (English information about what happens next that form fillers see on the confirmation screen) : Enter information about what happens next in Welsh (labelled textarea input)  
+
+“Link to privacy information for this form” captioned table with 2 columns for English and Welsh content: 
+
+>  https://www.gov.uk/help/privacy-notices : Enter link to your Welsh privacy information (labelled textarea input)  
+
+“Contact details for support” captioned table with 3 columns, this first without content and the other 2 for English and Welsh content:  
+
+>  Text to describe the contact link : Our full contact details : Enter text to describe the contact link for Welsh support (labelled textarea input)  
+>    
+>  Online contact link : https://www.gov.uk/contact-us : Enter an online contact link for Welsh support (labelled textarea input)  
+
+The page ends with the “Have you finished adding your Welsh version?” question. It has hint text: “Selecting ‘Yes’ will mark this task as complete. You’ll still be able to make more changes if you need to.” There are 2 radios:  
+
+> Yes  
+> No, I’ll come back later  
+
+Finally there’s a green “Save and continue” button.  
+ 
+<br>  
+
+  
+<img alt="Completed Add a Welsh version of your form page. Screenshot" src="./screenshots-v2/011-add-a-welsh-version-complete-translations.png" width="500">  
+
+’Add a Welsh version of your form‘ page showing all the inputs have a Welsh translation in their corresponding input boxes. The Welsh content has been saved which means a red “Delete Welsh version” button now appears alongside the “Save and continue” button.  
+
+  
+### Create a form - saved and completed Welsh version    
+
+<img alt="Create a form task list page showing Welsh version changes saved. Screenshot" src="./screenshots-v2/012-create-a-form-complete-form.png" width="500">  
+
+Task list screen showing a green success banner, “The Welsh version of your form has been saved”.    
+
+<br>   
+
+  
+<img alt="Create a form task list page showing Welsh version saved and marked completed. Screenshot" src="./screenshots-v2/012-create-a-form-complete-welsh.png" width="500">  
+
+Task list screen showing a green success banner, “The Welsh version of your form has been saved and marked complete”.  
+ 
+  
+## Form filler screens 
+
+### Previewing a form  
+  
+<img alt="First question page in a form with more complex guidance before the question. Screenshot" src="./screenshots-v2/1001-welsh-guidance-preview.png" width="500">  
+
+First question page in a form with guidance before the question and ‘Cymraeg’ language toggle selected.  
+  
+<br>  
+
+  
+<img alt="Date of birth question page in Welsh. Screenshot" src="./screenshots-v2/1002-welsh-date-preview.png" width="500">  
+
+Date of birth question page in a form. The ‘Cymraeg’ language toggle is selected.  
+
+<br>  
+
+  
+<img alt="Address question page in Welsh. Screenshot" src="./screenshots-v2/1003-welsh-address-preview.png" width="500">  
+
+Address question page in a form. The ‘Cymraeg’ language toggle is selected.  
+
+<br>  
+
+  
+<img alt="Check your answers before submitting page in Welsh. Screenshot" src="./screenshots-v2/1005-welsh-cya-open-email-preview.png" width="500">  
+
+’Check your answers before submitting‘ page in a form. The ‘Cymraeg’ language toggle is selected.  
+
+<br>  
+
+<img alt="Your form has been submitted page in Welsh. Screenshot" src="./screenshots-v2/1006-welsh-confirmation-preview.png" width="500">  
+
+’Your form has been submitted‘ page in a form. The ‘Cymraeg’ language toggle is selected.  
+
+  
+### Previewing a form with English content but no Welsh
+
+<img alt="First question page in a form with guidance showing the English version. Screenshot" src="./screenshots-v2/009-previewing-form-without-welsh-translations-but-welsh-version-english.png" width="500">  
+
+First question page in a form with guidance showing the English content and ‘English’ language toggle selected.  
+
+<br>  
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./screenshots-v2/009-previewing-form-without-welsh-translations-but-welsh-version-welsh.png" width="500">  
+
+First question page in a form with guidance showing the English content added by the form creator while the ‘Welsh’ language toggle is selected. The page furniture that is not added by the form creator, such as the banner message and button text, displays in Welsh.     
+
+<br>  
+  
+___
+
+<br>  
+  
+[Back to the top](#add-welsh-version-of-a-form-v2---first-release)
