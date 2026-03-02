@@ -37,7 +37,7 @@ There are a number of key screens, journeys and parts of the feature that were n
 
 - markdown editor not in place on the Welsh version page  
 - make your form live pages don’t currently show any content about the Welsh version
-  - there is also a next step iteration for for making Welsh and English versions live at separate times that was not part of this release    
+  - there is also a next step iteration for making Welsh and English versions live at separate times that was not part of this release    
 - live read-only view screens not yet showing Welsh content
 - archive the Welsh version of your form not developed  
 - group page not showing the forms with a Welsh version  
