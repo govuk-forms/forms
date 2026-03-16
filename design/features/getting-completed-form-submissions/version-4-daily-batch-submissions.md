@@ -42,7 +42,14 @@ The designs and content changed for this iteration were:
 ### Read-only Live view
   
 <img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/003-how-you-get-completed-forms-live.png" width="500"> 
-
+    
+### Daily collation email - live version  
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1001-daily-submission-email-live.png" width="500"> 
+    
+### Daily collation email - preview version  
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1002-daily-submission-email-preview.png" width="500"> 
 
 <br>  
   
