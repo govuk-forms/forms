@@ -31,4 +31,23 @@ We believe providing a daily collation of submissions will help some users of th
   
 The designs and content changed for this iteration were: 
 
+### Task list
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/001-change-how-you-get-completed-forms.png" width="500">  
+    
+### Get a collation
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/002-get-a-daily-CSV-of-the-previous-days-completed-forms.png" width="500">  
+    
+### Read-only Live view
+  
+<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/003-how-you-get-completed-forms-live.png" width="500"> 
 
+
+<br>  
+  
+___
+
+<br>  
+  
+[Back to the top](#daily-batch-of-submissions)  
