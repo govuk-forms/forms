@@ -33,7 +33,27 @@ The designs and content changed for this iteration were:
 
 ### Task list
   
-<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/001-change-how-you-get-completed-forms.png" width="500">  
+<img alt="Task list section for “Change how you get completed forms”. Screenshot" src="./version-4-daily-batch-submissions-screenshots/001-change-how-you-get-completed-forms.png" width="500"> 
+
+As part of the work to include the new collated CSV as an option for form creators to pick form we added a new optional task as part of the task list section 2 “Change how you get completed forms”. 
+
+The section still shows the link to edit the email address completed forms are sent to with the previously set email that submissions are currently sent to beneath. Then the task to enter the confirmation code we sent to the email to confirm they had access. It reads: 
+
+> 2\. Change how you get completed forms
+>
+> Edit the email address compelted forms will be sent to (link) : Completed
+> Completed forms will be sent to: example@department.gov.uk
+>
+> Enter the email address confirmation code (unlinked) : Completed
+
+Under the original tasks is the existing ‘optional task’ to “Get a CSV or JSON file of each compelted form” which has not been selected so remains with the status tag ‘optional’ alongside. 
+
+Next is the new optional task added: 
+
+> Get a daily CSV of the previous day’s completed forms : Optional
+
+Since adding the new second optional task we also updated the subsection heading from ‘Optional task’ to ‘Optional tasks’.  
+
     
 ### Get a collation
   
