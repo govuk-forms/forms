@@ -55,10 +55,29 @@ Next is the new optional task added:
 Since adding the new second optional task we also updated the subsection heading from ‘Optional task’ to ‘Optional tasks’.  
 
     
-### Get a collation
+### Get a daily CSV of the previous day’s completed forms
   
-<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/002-get-a-daily-CSV-of-the-previous-days-completed-forms.png" width="500">  
-    
+<img alt="Get a daily CSV of the previous day’s completed forms page. Screenshot" src="./version-4-daily-batch-submissions-screenshots/002-get-a-daily-CSV-of-the-previous-days-completed-forms.png" width="500">  
+
+This is the newly added task screen providing information about the feature and what it does and does not offer, with the option for the form creator to pick if they recieve the new file. The page reads: 
+
+> H1: Get a daily CSV of the previous day’s completed forms
+>
+> You can get a daily email with all the answers from the previous day’s completed forms collected into a CSV file.
+>
+> The CSV will list all the answers in plain text, separated by commas, with a row for each completed form.
+>
+> We’ll send the email shortly after 2am with the completed forms from the previous day. It’ll be sent to the same email address you set for completed forms.
+>
+> If you make changes to the form such as adding, moving or deleting a question, the structure of the CSV will change. Forms completed before and after the change will be split into separate CSV files.
+>
+> You’ll continue to receive individual completed form emails. If your form has any file upload questions, the uploaded files will only be attached to the individual completed form emails. 
+
+Finally the page ends with the question “Do you want to get a daily CSV of the previous day’s completed forms?” and a single checkbox for the form creator to select or deselect: 
+
+> Get a daily CSV of completed forms 
+
+
 ### Read-only Live view
   
 <img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/003-how-you-get-completed-forms-live.png" width="500"> 
