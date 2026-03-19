@@ -100,11 +100,41 @@ The last line of which would change to read “You are getting a daily CSV of th
 
 ### Daily collation email - live version  
   
-<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1001-daily-submission-email-live.png" width="500"> 
-    
+<img alt="Daily form submissions, live form example email. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1001-daily-submission-email-live-fixed.png" width="500"> 
+
+This is an example of the new daily email that will be sent to the processing email. 
+
+- The email will be sent just after 2am each day and contain all submissions from the previous day collated into a single CSV file.  
+- The CSV will not include uploaded files from the form but will include the associated file name for the form processors to be able to link the submission and file.  
+
+The email subject line for live forms reads: 
+
+> Daily form submissions: ‘[Form name]’ - xx month year
+
+The email reads: 
+
+> Form name: “[form name]”  
+>  
+> All submissions to this form from xx month year are attached to this email in [a CSV file named | CSV files names]:  
+> - govuk_forms_form_name_2026-02-13_1  
+> - govuk_forms_form_name_2026-02-13_2  
+> - govuk_forms_form_name_2026-02-13_3  
+>   
+> > Check that these answers look safe before you use them  
+>  
+> Submissions are split into separate CSV files if the form’s been changed in a way that affects the structure of the CSV.  
+>  
+> For forms with file upload questions, the uploaded files will only be attached to the individual completed form emails.  
+>  
+> > **You cannot reply to this email**
+> > 
+> > If you’re experiencing a technical issue with this form, contact the GOV.UK Forms team (linked) with details of the issues and the form it relates to.   
+
 ### Daily collation email - preview version  
   
-<img alt="First question page in a form with guidance showing English while the Welsh version toggle is selected. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1002-daily-submission-email-preview.png" width="500"> 
+<img alt="Test daily form submissions, draft form example email. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1002-daily-submission-email-preview.png" width="500"> 
+
+
 
 <br>  
   
