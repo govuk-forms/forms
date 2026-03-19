@@ -105,7 +105,7 @@ The last line of which would change to read “You are getting a daily CSV of th
 This is an example of the new daily email that will be sent to the processing email. 
 
 - The email will be sent just after 2am each day and contain all submissions from the previous day collated into a single CSV file.  
-- The CSV will not include uploaded files from the form but will include the associated file name for the form processors to be able to link the submission and file.  
+- The CSV will not include uploaded files from the form but will include the associated filename for the form processors to be able to link the submission and file.  
 
 The email subject line for live forms reads: 
 
@@ -134,7 +134,19 @@ The email reads:
   
 <img alt="Test daily form submissions, draft form example email. Screenshot" src="./version-4-daily-batch-submissions-screenshots/1002-daily-submission-email-preview.png" width="500"> 
 
+This is an example of the collated email where someone is previewing a form and submits. It is mostly the same as the live version with a couple of exceptions. 
 
+The email subject line reads: 
+
+> TEST DAILY FORM SUBMISSIONS: [Form name] - xx month year  
+
+Using “TEST” and capitalisation to distsinguish quickly between the live data and preview data, and hopefully allow form processors to set up mailbox forwarding and filtering quickly. 
+
+We have also included a line at the start of the email body: 
+
+> These are test submissions to a preview of [a draft | a live | an archived] form.
+
+We have also added “test_” to the start of each attached CSV filename to help distinguish between live data and test, or preview data incase there is automation happening.  
 
 <br>  
   
