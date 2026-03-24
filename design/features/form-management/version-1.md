@@ -4,7 +4,7 @@
 
 Date created: *2025-08-08*    
 
-In development  
+Released
 
 ___   
 
@@ -23,6 +23,9 @@ ___
 We want to allow org admins to move a form from one group to another.  
 
 We need to design how they could do this and make sure it’s feasible from an implementation POV.  
+
+- [Epic trello card for moving a form](https://trello.com/c/8dE6x3tA/2393-design-how-to-move-a-form-from-one-group-to-another)  
+- [Mural board for moving a form](https://app.mural.co/t/gaap0347/m/gaap0347/1752756571497/0452eaf50e2e6eb60472053cbd68c55b4f6e16a9?sender=ue1ef9fc3c2ad3697c3c93132)
 
 
 ## Key decisions  
