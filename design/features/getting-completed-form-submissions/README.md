@@ -42,8 +42,10 @@ We need to make several changes to the task list to properly represent the S3 op
 
 So in January 2026, we added a details component to the page where form creators set the email address for completed forms. This tells them S3 buckets is an option, and links to the [processing completed form submissions](https://www.forms.service.gov.uk/processing-completed-form-submissions) guidance on the product site which has more information and tells them to contact us to set it up.
 
+### [Daily batches of form submissions in CSV](version-4-daily-batch-submissions.md)
 
+Added an option to be sent a daily email with a CSV of data from all submissions to a form from the previous day.
 
+### [Weekly batches of form submmissions in CSV](version-5-weekly-batch-submissions.md)
 
-
-
+Added an option to be sent a weekly email with a CSV of data from all submissions to a form from the previous week.
