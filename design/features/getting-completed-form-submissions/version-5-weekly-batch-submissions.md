@@ -99,7 +99,7 @@ If the form creator makes no changes, no success banner is displayed when they r
 
 On the live or archived form’s read-only details page we display the form’s current settings for daily and weekly batches. 
 
-In the “How you get completed forms” section, we show a H3: 
+In the “How you get completed forms” section, we show an H3: 
 
 >  Daily and weekly CSVs
 
