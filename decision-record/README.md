@@ -14,7 +14,7 @@ Proposing and reviewing decisions requires an understanding of the GitHub and [p
 
 ## Reviewing a decision
 
-1. Find the decision record in the list of [pull requests](https://github.com/alphagov/forms/pulls)
+1. Find the decision record in the list of [pull requests](https://github.com/govuk-forms/forms/pulls)
 2. Add a comment and / or approve the pull request
 
 ## Approving / superseding / rejecting a decision
