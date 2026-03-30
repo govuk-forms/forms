@@ -139,7 +139,7 @@ The body content is:
 >  
 > > **You cannot reply to this email**
 > > 
-> > If you’re experiencing a technical issue with this form, contact the GOV.UK Forms team (linked) with details of the issues and the form it relates to.   
+> > If you’re experiencing a technical issue with this form, contact the GOV.UK Forms team (linked) with details of the issue and the form it relates to.   
 
 #### Preview version of the email
 
