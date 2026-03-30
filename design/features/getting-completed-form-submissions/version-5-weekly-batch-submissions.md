@@ -2,7 +2,7 @@
 
 - Date released: 30 March 2026
 - [Epic Trello card](https://trello.com/c/KsrXbLgd/156-collating-submissions-into-one-file)
-- [Daily and weekly collated submissions CSV](https://app.mural.co/t/gaap0347/m/gaap0347/1770127108440/d7a891c1cc0123b6ccbb35e593bb7b00ce38d083?sender=u12d19b597a88e8b64fc22126)
+- [Daily and weekly collated submissions CSV - Mural](https://app.mural.co/t/gaap0347/m/gaap0347/1770127108440/d7a891c1cc0123b6ccbb35e593bb7b00ce38d083?sender=u12d19b597a88e8b64fc22126)
 - [Daily and weekly CSV of form submissions - content notes](https://docs.google.com/document/d/1aHnUZ6RWI2aj9yi-MciAy-NexJzWtynNV2NEGZyioAc/edit?pli=1&tab=t.udaypy8b13up#heading=h.6iwzmd16d9b8)
 ---
 
