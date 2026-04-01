@@ -1,7 +1,7 @@
 # PR Checklist
 
 - [ ] If you are proposing a new decision record document, used the right template for that
-      - ([ADR](https://github.com/alphagov/forms/blob/main/ADR/ADRXXX-architecture-decision-record-template.md), [decision-record](https://github.com/alphagov/forms/blob/main/decision-record/DRXXX-decision-record-template.md), engagement, [research](https://github.com/alphagov/forms/blob/main/research/YYYY-MM-DD-template.md))
+      - ([ADR](https://github.com/govuk-forms/forms/blob/main/ADR/ADRXXX-architecture-decision-record-template.md), [decision-record](https://github.com/govuk-forms/forms/blob/main/decision-record/DRXXX-decision-record-template.md), engagement, [research](https://github.com/govuk-forms/forms/blob/main/research/YYYY-MM-DD-template.md))
 - [ ] Set yourself as the Assignee
 - [ ] Tag anyone you would like to review, or @forms-design or @forms-devs
 - [ ] Fill in the template below
