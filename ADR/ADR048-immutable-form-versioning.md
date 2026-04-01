@@ -42,6 +42,12 @@ We will introduce an immutable versioning model for published forms, exposed thr
 - Publishing (making live): When a form is made live, a new immutable version is created and assigned an incrementing version identifier (e.g. `1`, `2`, `3`). It becomes available at `/api/v3/forms/:form_id/versions/:form_version`. The `/api/v3/forms/:form_id/latest` endpoint points to this new version.
 - Archiving: When a form is archived, `/api/v3/forms/:form_id/latest` and `/api/v3/forms/:form_id/draft` return `404` (or `410 Gone`). However, all previously published versions remain available at `/api/v3/forms/:form_id/versions/:form_version` because they are immutable.
 
+### Hard submission deadlines
+
+For legal or policy reasons, some forms may need a strict cutoff time after which no new submissions are permitted. Archiving would no longer act as a way to cut off in-progress journeys and prevent any future submissions.
+
+However, this behaviour can be re-implemented. For example, this could be a deadline timestamp attribute on the form that `forms-runner` checks before displaying the form or accepting a submission. This is more explicit and reliable than using archiving as a proxy for a hard stop. It would also allow form owners to schedule a cutoff in advance.
+
 ### Content removal
 
 Immutability prevents deletion as part of normal operations. A separate process will be needed for exceptional cases where published content genuinely must be removed (e.g. GDPR erasure).
@@ -60,4 +66,5 @@ Immutability prevents deletion as part of normal operations. A separate process 
 ### Negative
 
 - Migration and data model complexity. Existing consumers (primarily forms-runner) will need to be updated to use the v3 API, requiring a transition period running both APIs in parallel. The `FormDocument` model (or a new model) will need to support version numbering alongside or in place of the current tag-based system (`draft`, `live`, `archived`).
+- Archiving no longer acts as a way to cut off in-progress journeys and any future submissions. Some forms may rely on this behaviour for legal or policy reasons. We would need to re-implement this behaviour in a new way.
 
