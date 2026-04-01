@@ -42,11 +42,15 @@ We will introduce an immutable versioning model for published forms, exposed thr
 - Publishing (making live): When a form is made live, a new immutable version is created and assigned an incrementing version identifier (e.g. `1`, `2`, `3`). It becomes available at `/api/v3/forms/:form_id/versions/:form_version`. The `/api/v3/forms/:form_id/latest` endpoint points to this new version.
 - Archiving: When a form is archived, `/api/v3/forms/:form_id/latest` and `/api/v3/forms/:form_id/draft` return `404` (or `410 Gone`). However, all previously published versions remain available at `/api/v3/forms/:form_id/versions/:form_version` because they are immutable.
 
+### Linking submissions to form versions
+
+Each submission will store the `form_version` it was made against, and that version information will be exposed to downstream form processors. This makes the version of the form explicit at the point of processing, instead of requiring processors to infer changes from the submission payload shape.
+
 ### Hard submission deadlines
 
 For legal or policy reasons, some forms may need a strict cutoff time after which no new submissions are permitted. Archiving would no longer act as a way to cut off in-progress journeys and prevent any future submissions.
 
-However, this behaviour can be re-implemented. For example, this could be a deadline timestamp attribute on the form that `forms-runner` checks before displaying the form or accepting a submission. This is more explicit and reliable than using archiving as a proxy for a hard stop. It would also allow form owners to schedule a cutoff in advance.
+This behaviour should be re-implemented. For example, this could be a deadline timestamp attribute on the form that `forms-runner` checks before displaying the form or accepting a submission. This is more explicit and reliable than using archiving as a proxy for a hard stop. It would also allow form owners to schedule a cutoff in advance.
 
 ### Content removal
 
