@@ -20,7 +20,10 @@ Gives form creators an easier, clearer way to return to editing their questions 
 Allows a form filler to upload a file.
 
 ### [Form management](form-management)  
-Ways for organisations to manage their forms such as deleting groups and moving forms. 
+Ways for organisations to manage their forms and groups such as deleting groups, moving forms and copying forms. 
+
+### [Getting completed form submissions](getting-completed-form-submissions)
+Ways forms creators can set up how they get completed form submissions, including setting an email to send completed forms to, getting CSV or JSON files of completed forms and setting up AWS S3 buckets for submissions. 
 
 ### [Metrics for form creators](form-metrics)  
 Allows form creators to see how their form is performing. Starting with a minimum offering of: number of forms started, number of forms submitted, and completion rate.
