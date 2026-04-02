@@ -46,6 +46,14 @@ We will introduce an immutable versioning model for published forms, exposed thr
 
 Each submission will store the `form_version` it was made against, and that version information will be exposed to downstream form processors. This makes the version of the form explicit at the point of processing, instead of requiring processors to infer changes from the submission payload shape.
 
+### Schema changes
+
+Consumers should always be able to treat `/api/v3/forms/:form_id/versions/:form_version` as a stable representation of the questions, structure, and behaviour that were published at that point in time.
+
+To handle changes in how form documents are represented, the form document should include an explicit `schema_version`. This makes it clear to consumers how to interpret the document while allowing the published content itself to remain immutable.
+
+In practice, schema changes should usually be backwards-compatible so consumers can continue to handle older and newer documents. Breaking schema changes should be reserved for the introduction of a new API version.
+
 ### Hard submission deadlines
 
 For legal or policy reasons, some forms may need a strict cutoff time after which no new submissions are permitted. Archiving would no longer act as a way to cut off in-progress journeys and prevent any future submissions.
@@ -71,4 +79,5 @@ Immutability prevents deletion as part of normal operations. A separate process 
 
 - Migration and data model complexity. Existing consumers (primarily forms-runner) will need to be updated to use the v3 API, requiring a transition period running both APIs in parallel. The `FormDocument` model (or a new model) will need to support version numbering alongside or in place of the current tag-based system (`draft`, `live`, `archived`).
 - Archiving no longer acts as a way to cut off in-progress journeys and any future submissions. Some forms may rely on this behaviour for legal or policy reasons. We would need to re-implement this behaviour in a new way.
+- Schema compatibility discipline. We would need to keep schema changes backwards-compatible within the API version wherever possible, and treat breaking schema changes as part of a future API version.
 
