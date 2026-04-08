@@ -100,7 +100,7 @@ The designs and content that were edited or created for this feature are:
 
 ### ‘Create a list of options’ page - new radio option
 
-<img alt="screenshot is described in the following content" src="Screenshots/001-create-list-of-options-page-new-radio.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/001-create-list-of-options-page-new-radio.png" width="600">
 
 **Description of the image and changes made:**
 
@@ -131,7 +131,7 @@ The new ‘none of the above’ radio option also appears on the page that form 
 
 ### ‘Ask for an answer if someone selects ‘None of the above’’ - new page
 
-<img alt="screenshot is described in the following content" src="Screenshots/002-ask-for-an-answer-page.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/002-ask-for-an-answer-page.png" width="600">
 
 **Description of the image:**
 
@@ -164,7 +164,7 @@ As usual, the 2 radio buttons are labelled ‘Mandatory’ and ‘Optional’, a
 
 ### ‘Edit question’ page - new row under ‘Answer settings’
 
-<img alt="screenshot is described in the following content" src="Screenshots/003-edit-question-page.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/003-edit-question-page.png" width="600">
 
 This screenshot shows the page that form creators see once they’ve added options to their select-from-a-list question.
 
@@ -186,7 +186,7 @@ Beneath the summary list is the usual green ‘Save question’ button and a ‘
 
 ### Live form’s ‘Your questions’ page
 
-<img alt="screenshot is described in the following content" src="Screenshots/004-your-questions-page.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/004-your-questions-page.png" width="600">
 
 **Description of the image and changes made:**
 
@@ -215,7 +215,7 @@ We considered an alternative design for displaying this information. This added 
 
 ### Showing ‘none of the above’ answer in a submission email
 
-<img alt="screenshot is described in the following content" src="Screenshots/005-submission-email.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/005-submission-email.png" width="600">
 
 **Description of the image and changes made:** 
 
@@ -246,7 +246,7 @@ The other post-it specifies what should happen if the form creator makes the add
 
 ### Showing ‘none of the above’ answer in CSV file
 
-<img alt="screenshot is described in the following content" src="Screenshots/006-CSV-file.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/006-CSV-file.png" width="600">
 
 **Description of the image and changes made:** 
 
@@ -273,7 +273,7 @@ We decided against having an extra column for the additional question’s text a
 
 ### Showing ‘none of the above’ answer in JSON file
 
-<img alt="screenshot is described in the following content" src="Screenshots/007-JSON-file.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/007-JSON-file.png" width="600">
 
 **Description of the image and changes made:** 
 
@@ -296,7 +296,7 @@ The decision to present it in this way was based on advice from developers that 
 
 ### Form filler view of the feature
 
-<img alt="screenshot is described in the following content" src="Screenshots/008-form-filler-additional-question-view.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/008-form-filler-additional-question-view.png" width="600">
 
 **Description of the image and changes made:** 
 
@@ -314,7 +314,7 @@ Below is the green ‘Continue’ button.
 
 The same pattern is used for checkboxes, but it changes slightly if the question uses select and autocomplete - as below.
 
-<img alt="screenshot is described in the following content" src="Screenshots/009-form-filler-autocomplete-question-view.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/009-form-filler-autocomplete-question-view.png" width="600">
 
 **Description of the image and changes made:** 
 
@@ -327,7 +327,7 @@ It shows the label “Enter your favourite colour (optional)” above a text box
 
 ### ‘Check your answers’ page - with additional ‘none of the above’ question 
 
-<img alt="screenshot is described in the following content" src="Screenshots/010-form-filler-check-your-answers-page.png" width="400">
+<img alt="screenshot is described in the following content" src="Screenshots/010-form-filler-check-your-answers-page.png" width="600">
 
 This screenshot shows the usual ‘Check your answers before submitting your form’ page.
 
