@@ -97,6 +97,7 @@ The designs and content that were edited or created for this feature are:
 - Question Xa, autocomplete - form filler view (new)
 - ‘Check your answers’ page - form filler view (iteration) 
 
+
 ### ‘Create a list of options’ page - new radio option
 
 <img alt="screenshot is described in the following content" src="Screenshots/001-create-list-of-options-page-new-radio.png" width="400">
@@ -126,6 +127,7 @@ If form creators select this option, they’ll be taken to the ‘Ask for an ans
 If they select the ‘Yes’ or ‘No’ radio options instead, they’ll be taken straight to the ‘Edit question’ page, as usual. 
 
 The new ‘none of the above’ radio option also appears on the page that form creators see if they choose to enter all the options into one text box.
+
 
 ### ‘Ask for an answer if someone selects ‘None of the above’’ - new page
 
@@ -159,6 +161,7 @@ We added the word ‘additional’ here to help form creators understand that we
 
 As usual, the 2 radio buttons are labelled ‘Mandatory’ and ‘Optional’, and the hint text under ‘Optional’ says that we’ll add ‘Optional’ to the end of the question or label.  
 
+
 ### ‘Edit question’ page - new row under ‘Answer settings’
 
 <img alt="screenshot is described in the following content" src="Screenshots/003-edit-question-page.png" width="400">
@@ -179,6 +182,7 @@ The 5 row headings are:
 The first 4 are the same as usual, but the fifth is new - ‘If ‘none of the above’ is selected’. Next to this is whatever value (or text)  the form creator has added as the additional question or label.
 
 Beneath the summary list is the usual green ‘Save question’ button and a ‘Back to your questions’ link.
+
 
 ### Live form’s ‘Your questions’ page
 
@@ -208,6 +212,7 @@ The last row, with the row header ‘If ‘none of the above’ is selected’, 
 
 We considered an alternative design for displaying this information. This added a separate ‘None of the above’ heading and section to the summary card. It had row headers - ‘Input label’, followed by the form creator’s question text or label, and ‘Is the input optional?’, followed by ‘Yes’ or ‘No’. We decided against this design as it was less concise, used less plain English and made the summary card for that answer significantly longer. 
 
+
 ### Showing ‘none of the above’ answer in a submission email
 
 <img alt="screenshot is described in the following content" src="Screenshots/005-submission-email.png" width="400">
@@ -236,7 +241,8 @@ There are 2 yellow post-it notes which show some discussion about this design de
 
 The other post-it specifies what should happen if the form creator makes the additional question optional. This reads:
 
-> If it's an optional follow-up question that the form filler doesn't answer, this will say [This question was skipped] as we do for other optional questions. 
+> If it's an optional follow-up question that the form filler doesn't answer, this will say [This question was skipped] as we do for other optional questions.
+
 
 ### Showing ‘none of the above’ answer in CSV file
 
@@ -264,6 +270,7 @@ If the additional question is optional and not answered, we agreed to show the t
 
 We decided against having an extra column for the additional question’s text and answer, although there was discussion about this. There were concerns about whether form processors might want to separate the 2, and whether separating them with a hyphen within the same cell was enough. The overall consensus was that it’s more obvious that the additional answer is related to the ‘none of the above’ question if it’s in the same cell. This was considered important as the person processing the form might not be the person who created it. It also means the processor does not have to check whether one column has ‘None of the above’ before looking in another column for the related answer.
 
+
 ### Showing ‘none of the above’ answer in JSON file
 
 <img alt="screenshot is described in the following content" src="Screenshots/007-JSON-file.png" width="400">
@@ -284,7 +291,9 @@ Below this is the usual “answer_text” key. But instead of the value being �
 
 This is consistent with how this data is presented in the CSV. 
 
-The decision to present it in this way was based on advice from developers that we usually need feedback from real JSON users to know what works best. We plan to consider such feedback in the future. 
+The decision to present it in this way was based on advice from developers that we usually need feedback from real JSON users to know what works best. We plan to consider such feedback in the future.
+
+
 ### Form filler view of the feature
 
 <img alt="screenshot is described in the following content" src="Screenshots/008-form-filler-additional-question-view.png" width="400">
@@ -314,6 +323,7 @@ This screenshot shows the new screen a form filler will see if they’ve chosen 
 Instead of a conditional reveal on the same page, they’ll be taken to this new page. 
 
 It shows the label “Enter your favourite colour (optional)” above a text box input for their answer. This is followed by the green ‘Continue’ button. 
+
 
 ### ‘Check your answers’ page - with additional ‘none of the above’ question 
 
