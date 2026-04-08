@@ -98,14 +98,10 @@ The designs and content that were edited or created for this feature are:
 - ‘Check your answers’ page - form filler view (iteration) 
 
 ### ‘Create a list of options’ page - new radio option
-!['Create a list of options' page - new radio option. Screenshot](./screenshots/001-create-list-of-options-page-new-radio.png)
+!['Create a list of options' page - new radio option. Screenshot](../screenshots/001-create-list-of-options-page-new-radio.png)
 *'Create a list of options' page showing new radio option*
 
-THIS LINK DOESN'T WORK. TRYING AGAIN BELOW:
-
-<img src="https://github.com/govuk-forms/forms/blob/documentation-for-add-answer-for-none-of-the-above/design/features/add-answer-for-none-of-the-above/Screenshots/001-create-list-of-options-page-new-radio.png
-" alt="'Create a list of options' page showing new radio option">
-
+THIS LINK DOESN'T WORK. TRYING TO WORK OUT WHAT I'M DOING WRONG...
 
 **Description of the image and changes made:**
 
