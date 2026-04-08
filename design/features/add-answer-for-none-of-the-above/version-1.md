@@ -98,10 +98,20 @@ The designs and content that were edited or created for this feature are:
 - ‘Check your answers’ page - form filler view (iteration) 
 
 ### ‘Create a list of options’ page - new radio option
+with two dots and a capital S:
 !['Create a list of options' page - new radio option. Screenshot](../screenshots/001-create-list-of-options-page-new-radio.png)
 *'Create a list of options' page showing new radio option*
 
-THIS LINK DOESN'T WORK. TRYING TO WORK OUT WHAT I'M DOING WRONG...
+With one dot and a capital S:
+!['Create a list of options' page - new radio option. Screenshot](./Screenshots/001-create-list-of-options-page-new-radio.png)
+
+With no dots and a capital S: 
+!['Create a list of options' page - new radio option. Screenshot](Screenshots/001-create-list-of-options-page-new-radio.png)
+
+
+With HTML: 
+<img alt="screenshot is described in the following content" src="Screenshots/001-create-list-of-options-page-new-radio.png" width="400">
+
 
 **Description of the image and changes made:**
 
