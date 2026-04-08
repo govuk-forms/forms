@@ -8,7 +8,8 @@
 
 - [What](#what)
 - [Key decisions](#key-decisions)
-
+- [Designs and content](#designs-and-content)
+  
 ## What is this feature?
 We allow users to select ‘None of the above’ when selecting from a list of options, but we don’t provide a way for them to specify what their answer would be.
 We should let users describe what their ‘none of the above’ item would be, if form creators want to allow this.
@@ -97,7 +98,8 @@ The designs and content that were edited or created for this feature are:
 - ‘Check your answers’ page - form filler view (iteration) 
 
 ### ‘Create a list of options’ page - new radio option
-[IMAGE](001-create-list-of-options-page-new-radio.png)
+!['Create a list of options' page - new radio option. Screenshot](./screenshots-v1/001-create-list-of-options-page-new-radio.png)
+*'Create a list of options' page showing new radio option*
 
 **Description of the image and changes made:**
 
