@@ -98,20 +98,8 @@ The designs and content that were edited or created for this feature are:
 - ‘Check your answers’ page - form filler view (iteration) 
 
 ### ‘Create a list of options’ page - new radio option
-with two dots and a capital S:
-!['Create a list of options' page - new radio option. Screenshot](../screenshots/001-create-list-of-options-page-new-radio.png)
-*'Create a list of options' page showing new radio option*
 
-With one dot and a capital S:
-!['Create a list of options' page - new radio option. Screenshot](./Screenshots/001-create-list-of-options-page-new-radio.png)
-
-With no dots and a capital S: 
-!['Create a list of options' page - new radio option. Screenshot](Screenshots/001-create-list-of-options-page-new-radio.png)
-
-
-With HTML: 
 <img alt="screenshot is described in the following content" src="Screenshots/001-create-list-of-options-page-new-radio.png" width="400">
-
 
 **Description of the image and changes made:**
 
@@ -141,7 +129,7 @@ The new ‘none of the above’ radio option also appears on the page that form 
 
 ### ‘Ask for an answer if someone selects ‘None of the above’’ - new page
 
-[IMAGE](002-ask-for-an-answer-page.png)
+<img alt="screenshot is described in the following content" src="Screenshots/002-ask-for-an-answer-page.png" width="400">
 
 **Description of the image:**
 
@@ -173,7 +161,7 @@ As usual, the 2 radio buttons are labelled ‘Mandatory’ and ‘Optional’, a
 
 ### ‘Edit question’ page - new row under ‘Answer settings’
 
-[IMAGE](003-edit-question-page.png)
+<img alt="screenshot is described in the following content" src="Screenshots/003-edit-question-page.png" width="400">
 
 This screenshot shows the page that form creators see once they’ve added options to their select-from-a-list question.
 
@@ -194,7 +182,7 @@ Beneath the summary list is the usual green ‘Save question’ button and a ‘
 
 ### Live form’s ‘Your questions’ page
 
-[IMAGE](004-your-questions-page.png)
+<img alt="screenshot is described in the following content" src="Screenshots/004-your-questions-page.png" width="400">
 
 **Description of the image and changes made:**
 
@@ -221,7 +209,8 @@ The last row, with the row header ‘If ‘none of the above’ is selected’, 
 We considered an alternative design for displaying this information. This added a separate ‘None of the above’ heading and section to the summary card. It had row headers - ‘Input label’, followed by the form creator’s question text or label, and ‘Is the input optional?’, followed by ‘Yes’ or ‘No’. We decided against this design as it was less concise, used less plain English and made the summary card for that answer significantly longer. 
 
 ### Showing ‘none of the above’ answer in a submission email
-[IMAGE](005-submission-email.png)
+
+<img alt="screenshot is described in the following content" src="Screenshots/005-submission-email.png" width="400">
 
 **Description of the image and changes made:** 
 
@@ -250,7 +239,8 @@ The other post-it specifies what should happen if the form creator makes the add
 > If it's an optional follow-up question that the form filler doesn't answer, this will say [This question was skipped] as we do for other optional questions. 
 
 ### Showing ‘none of the above’ answer in CSV file
-[IMAGE](006-CSV-file.png)
+
+<img alt="screenshot is described in the following content" src="Screenshots/006-CSV-file.png" width="400">
 
 **Description of the image and changes made:** 
 
@@ -275,7 +265,8 @@ If the additional question is optional and not answered, we agreed to show the t
 We decided against having an extra column for the additional question’s text and answer, although there was discussion about this. There were concerns about whether form processors might want to separate the 2, and whether separating them with a hyphen within the same cell was enough. The overall consensus was that it’s more obvious that the additional answer is related to the ‘none of the above’ question if it’s in the same cell. This was considered important as the person processing the form might not be the person who created it. It also means the processor does not have to check whether one column has ‘None of the above’ before looking in another column for the related answer.
 
 ### Showing ‘none of the above’ answer in JSON file
-[IMAGE](007-JSON-file.png)
+
+<img alt="screenshot is described in the following content" src="Screenshots/007-JSON-file.png" width="400">
 
 **Description of the image and changes made:** 
 
@@ -296,7 +287,7 @@ This is consistent with how this data is presented in the CSV.
 The decision to present it in this way was based on advice from developers that we usually need feedback from real JSON users to know what works best. We plan to consider such feedback in the future. 
 ### Form filler view of the feature
 
-[IMAGE](008-form-filler-additional-question-view.png)
+<img alt="screenshot is described in the following content" src="Screenshots/008-form-filler-additional-question-view.png" width="400">
 
 **Description of the image and changes made:** 
 
@@ -314,7 +305,7 @@ Below is the green ‘Continue’ button.
 
 The same pattern is used for checkboxes, but it changes slightly if the question uses select and autocomplete - as below.
 
-[IMAGE](009-form-filler-autocomplete-question-view.png)
+<img alt="screenshot is described in the following content" src="Screenshots/009-form-filler-autocomplete-question-view.png" width="400">
 
 **Description of the image and changes made:** 
 
@@ -326,7 +317,7 @@ It shows the label “Enter your favourite colour (optional)” above a text box
 
 ### ‘Check your answers’ page - with additional ‘none of the above’ question 
 
-[IMAGE](010-form-filler-check-your-answers-page.png)
+<img alt="screenshot is described in the following content" src="Screenshots/010-form-filler-check-your-answers-page.png" width="400">
 
 This screenshot shows the usual ‘Check your answers before submitting your form’ page.
 
