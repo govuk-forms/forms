@@ -157,7 +157,7 @@ That’s followed by a label that reads:
 
 The hint text beneath this is:
 
-> For example, if you asked them to select the country they live in, you could use ‘Enter the country you live in’
+> For example, if you asked them to select the country they live in, you could use ‘Enter the country you live in’.
 
 Beneath the text box where form creators can add their label or question is an H2 heading that reads:
 
