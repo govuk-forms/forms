@@ -175,6 +175,7 @@ As usual, the 2 radio buttons are labelled ‘Mandatory’ and ‘Optional’, a
 This screenshot shows the page that form creators see once they’ve added options to their select-from-a-list question.
 
 The page’s H1 is ‘Edit question’. This is followed by the usual ‘Question text’ and ‘Hint text (optional)’ text boxes and the H2 heading ‘Guidance’. 
+
 Beneath this is the usual H2 ‘Answer settings’ with a summary list showing 5 rows. Each row is divided by a grey horizontal line. 
 
 The 5 row headings are:
