@@ -180,11 +180,11 @@ Beneath this is the usual H2 ‘Answer settings’ with a summary list showing 5
 
 The 5 row headings are:
 
-> Answer type
-> Options
-> How many options can people select
-> Include an option for ‘none of the above’
-> If ‘none of the above’ is selected
+> Answer type  
+> Options  
+> How many options can people select  
+> Include an option for ‘none of the above’  
+> If ‘none of the above’ is selected  
 
 The first 4 are the same as usual, but the fifth is new - ‘If ‘none of the above’ is selected’. Next to this is whatever value (or text)  the form creator has added as the additional question or label.
 
