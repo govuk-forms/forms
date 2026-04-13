@@ -78,6 +78,8 @@ This new feature adds a third radio option with the label ‘Yes, and let people
 
 The hint text has been moved from the ‘Yes’ radio option to under the H2 heading ‘Should the list include an option for ‘None of the above’?’. This is because there are now 2 ‘Yes’ options to choose from and it makes more sense to have the hint text at the top as it applies to both.
 
+We've made the same changes to the equivalent question on the 'Enter your list’s options into a text box' page - which people can chose to use rather than entering the options individually.
+
 We’ve added a new page that form creators will see if they choose to ask someone for an answer if they select ‘none of the above’. On this page, they’re asked to enter a question or label for the text box that form fillers will see. We provide hint text to help them do this more effectively.
 
 Form creators can also select whether entering an answer for this ‘additional question’ should be mandatory or optional.
