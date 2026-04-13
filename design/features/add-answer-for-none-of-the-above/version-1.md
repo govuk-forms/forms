@@ -66,7 +66,7 @@ So while we’re not allowing people to select or change how it’s worded, we a
 
 ### Summary of new designs and content
 
-When a form creator creates a ‘Selection from a list of options’ question, and having added their question text, they’re taken to a ‘Create a list of options’ page. This is the case whether someone selects ‘one option only’ or ‘one or more options’, or whether they choose to enter all the options into one text box. 
+When a form creator creates a ‘Selection from a list of options’ question, they add their question text, select ‘one option only’ or ‘one or more options’, and are then taken to a ‘Create a list of options’ page.
 
 On this page, there’s an ‘Add options to your list’ legend, followed by text boxes where form creators can add the relevant answer options to their list. 
 
