@@ -49,7 +49,7 @@ The following was agreed to be out of scope:
 - If this new option is selected, we’ll show form fillers a text box to enter their answer when they select ‘None of the above’. We’ll need to ask form creators for a question or label for this new input field.
 - We’ll let form creators select whether an answer to this ‘additional’ question is mandatory or not.
 - We’ll use the standard form-filler error messages for radios, checkboxes and single lines of text. 
-- It’s fine to add a second page for questions with long lists (that use the select/autocomplete component) to ask for the answer if they select ‘none of the above’. This shouldn’t interfere with routing
+- When the initial question has a long list of options (and uses the select/autocomplete component), we'll add a second page for the additional 'none of the above' question - we checked that this would be possible without interfering with routing
 - Even if someone selects ‘none of the above’ and types an answer in exactly the same way as one of the options in the original list, it should still be treated as a ‘none of the above’ answer for the purposes of routing. 
 - We need to consider related changes in form submissions and in the details page for live or archived forms. 
 
