@@ -116,6 +116,10 @@ There’s then an H2 that reads:
 
 > Should the list include an option for ‘None of the above’?
 
+This is followed by hint text that says:
+
+ > If you select ‘Yes’ we’ll add ‘None of the above’ to the end of your list of options.
+ 
 This is followed by 3 radio options, the second of which is new: 
 
 > - Yes
