@@ -1,3 +1,5 @@
+# Let people add an answer if ‘none of the above’ is selected
+
 ## Status
 - Date released: 16 January 2026
 - [Epic Trello card](https://trello.com/c/4G5NLRvN)
