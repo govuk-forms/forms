@@ -29,8 +29,8 @@ stateDiagram-v2
 
 ## available_languages
 
-`available_languages`, is an array of language codes. It's `[:en]` by default, which signals that the form is only available in English.
-Forms with a Welsh translation have `[:en, :cy]` in the array.
+`available_languages`, is an array of language codes. It's `["en"]` by default, which signals that the form is only available in English.
+Forms with a Welsh translation have `["en", "cy"]` in the array.
 
 As soon as the Welsh translation page is submitted with at least one value for a field, the `available_languages` array will be updated.
 
