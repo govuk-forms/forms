@@ -109,7 +109,9 @@ Beneath the banner is the ‘Create a form’ task list. The task sections, task
 3. Provide privacy and contact details
   - Provide a link to privacy information for this form - Completed
   - Provide contact details for support - Completed
-4. Make your form live
+4. Create a Welsh version of your form (optional)
+  - Add a Welsh version of your form - Optional
+5. Make your form live
   - Share a preview of your draft form - Not started
   - Make your form live - Cannot start yet
 
