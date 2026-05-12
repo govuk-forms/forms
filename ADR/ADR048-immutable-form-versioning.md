@@ -33,12 +33,13 @@ We will introduce an immutable versioning model for published forms, exposed thr
 | `GET /api/v3/forms/:form_id/draft`                  | Returns the current draft form document JSON (mutable, changes as the form creator edits)                |
 | `GET /api/v3/forms/:form_id/versions/:form_version` | Returns an immutable, versioned form document. Once created, this content never changes.                 |
 | `GET /api/v3/forms/:form_id/live`                   | Returns the live version of the form (a redirect or alias to the most recently published version)        |
+| `GET /api/v3/forms/:form_id/archived`               | Returns the version that was live when the form was archived (a redirect or alias to that version)       |
 
 ### Lifecycle
 
 - Draft state: A form being edited has a draft available at `/api/v3/forms/:form_id/draft`. This behaves similarly to today.
 - Publishing (making live): When a form is made live, a new immutable version is created and assigned an incrementing version identifier (e.g. `1`, `2`, `3`). It becomes available at `/api/v3/forms/:form_id/versions/:form_version`. The `/api/v3/forms/:form_id/live` endpoint points to this new version.
-- Archiving: When a form is archived, `/api/v3/forms/:form_id/live` and `/api/v3/forms/:form_id/draft` return `404` (or `410 Gone`). However, all previously published versions remain available at `/api/v3/forms/:form_id/versions/:form_version` because they are immutable.
+- Archiving: When a form is archived, `/api/v3/forms/:form_id/live` return `404` (or `410 Gone`). The `/api/v3/forms/:form_id/archived` endpoint points to the version that was live at the point of archiving. All previously published versions remain available at `/api/v3/forms/:form_id/versions/:form_version` because they are immutable.
 
 ### Linking submissions to form versions
 
