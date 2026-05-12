@@ -18,8 +18,8 @@ The `FormStateMachine` manages transitions between states (`draft`, `live`, `liv
 
 This approach has several limitations:
 
-1. The `/live` endpoint is mutable. The content behind `/api/v2/forms/:form_id/live` changes each time a form is re-published, so consumers must always re-fetch. This prevents effective caching.
-2. No explicit link between a submission and the form version it was submitted against. When a form is updated and re-published, there is no reliable way to identify which version of the form a given submission relates to. This makes it difficult to group submissions by form version or detect when a form changed between batch submission deliveries.
+1. The `/live` endpoint is mutable. The content behind `/api/v2/forms/:form_id/live` changes each time a form is republished, so consumers must always re-fetch it. This prevents effective caching.
+2. There is no explicit link between a submission and the form version it was submitted against. When a form is updated and republished, there is no reliable way to identify which version of the form a given submission relates to. This makes it difficult to group submissions by form version or detect when a form changed between batch submission deliveries.
 3. Mid-journey disruption. If a form creator publishes a new version or archives a form while a user is part-way through filling it in, the form can change or disappear mid-journey. There is no mechanism for in-progress users to continue with the version they started.
 
 ## Decision
@@ -28,13 +28,11 @@ We will introduce an immutable versioning model for published forms, exposed thr
 
 ### New API endpoints
 
-
 | Endpoint                                            | Description                                                                                              |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | `GET /api/v3/forms/:form_id/draft`                  | Returns the current draft form document JSON (mutable, changes as the form creator edits)                |
 | `GET /api/v3/forms/:form_id/versions/:form_version` | Returns an immutable, versioned form document. Once created, this content never changes.                 |
 | `GET /api/v3/forms/:form_id/latest`                 | Returns the latest live version of the form (a redirect or alias to the most recently published version) |
-
 
 ### Lifecycle
 
@@ -56,9 +54,9 @@ In practice, schema changes should usually be backwards-compatible so consumers 
 
 ### Hard submission deadlines
 
-For legal or policy reasons, some forms may need a strict cutoff time after which no new submissions are permitted. Archiving would no longer act as a way to cut off in-progress journeys and prevent any future submissions.
+For legal or policy reasons, some forms may need a strict cut-off time after which no new submissions are permitted. Archiving would no longer act as a way to cut off in-progress journeys and prevent future submissions.
 
-This behaviour should be re-implemented. For example, this could be a deadline timestamp attribute on the form that `forms-runner` checks before displaying the form or accepting a submission. This is more explicit and reliable than using archiving as a proxy for a hard stop. It would also allow form owners to schedule a cutoff in advance.
+This behaviour should be re-implemented. For example, this could be a deadline timestamp attribute on the form that `forms-runner` checks before displaying the form or accepting a submission. This is more explicit and reliable than using archiving as a proxy for a hard stop. It would also allow form owners to schedule a cut-off in advance.
 
 ### Content removal
 
@@ -69,7 +67,8 @@ Immutability prevents deletion as part of normal operations. A separate process 
 ### Positive
 
 - Cacheable published forms. Versioned form documents at `/api/v3/forms/:form_id/versions/:form_version` can be cached indefinitely by consumers (e.g. forms-runner, CDNs), significantly reducing load on the API and improving latency for form rendering.
-- Submissions linked to form versions. Each submission can explicitly reference the `form_version` it was submitted against. This enables grouping submissions by version and helps people processing submissions to know exactly which questions were asked.
+- Submissions grouped by form version. Each submission can explicitly reference the `form_version` it was submitted against, making it easier to group submissions by version for batch submissions.
+- Version-aware processing. Processors can see which version a submission was made against and act accordingly, making downstream systems more resilient to change.
 - Graceful publishing. Users who have already started filling in a form can continue submitting against the version they began with, even if the form creator publishes a new version in the meantime.
 - Graceful archiving. When a form is archived, new users can be prevented from starting the form while users who have already started can finish and submit against the version they are on.
 - Reverting to previous versions. Preserving all published versions makes it easier to implement future features allowing form creators to revert to a previous version of a form.
@@ -78,6 +77,9 @@ Immutability prevents deletion as part of normal operations. A separate process 
 ### Negative
 
 - Migration and data model complexity. Existing consumers (primarily forms-runner) will need to be updated to use the v3 API, requiring a transition period running both APIs in parallel. The `FormDocument` model (or a new model) will need to support version numbering alongside or in place of the current tag-based system (`draft`, `live`, `archived`).
-- Archiving no longer acts as a way to cut off in-progress journeys and any future submissions. Some forms may rely on this behaviour for legal or policy reasons. We would need to re-implement this behaviour in a new way.
+- Archiving no longer acts as a way to cut off in-progress journeys and any future submissions. Some forms may rely on this behaviour for legal or policy reasons. We would need to re-implement this behaviour in a new way.[^hard-submission-deadline]
 - Schema compatibility discipline. We would need to keep schema changes backwards-compatible within the API version wherever possible, and treat breaking schema changes as part of a future API version.
 
+### Notes
+
+[^hard-submission-deadline]: A possible implementation to support hard submission deadlines is to add a timestamp to the form to set the cut-off point. `forms-runner` should check this timestamp before showing the form or processing submissions. This would also let form owners schedule archiving in advance, instead of needing to archive the form manually at the exact time.
