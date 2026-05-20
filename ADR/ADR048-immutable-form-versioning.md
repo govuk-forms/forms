@@ -20,7 +20,7 @@ This approach has several limitations:
 
 1. The `/live` endpoint is mutable. The content behind `/api/v2/forms/:form_id/live` changes each time a form is republished, so consumers must always re-fetch it. This prevents effective caching.
 2. There is no explicit link between a submission and the form version it was submitted against. When a form is updated and republished, there is no reliable way to identify which version of the form a given submission relates to. This makes it difficult to group submissions by form version or detect when a form changed between batch submission deliveries.
-3. Mid-journey disruption. If a form creator publishes a new version or archives a form while a user is part-way through filling it in, the form can change or disappear mid-journey. There is no mechanism for in-progress users to continue with the version they started.
+3. Mid-journey disruption. If a form creator publishes a new version or archives a form while a user is filling it in or when they return later (e.g. Save and Return) the live form can change or disappear. There is no mechanism to pin in-progress users to the version they started.
 
 ## Decision
 
@@ -44,6 +44,8 @@ We will introduce an immutable versioning model for published forms, exposed thr
 ### Linking submissions to form versions
 
 Each submission will store the `form_version` it was made against, and that version information will be exposed to downstream form processors. This makes the version of the form explicit at the point of processing, instead of requiring processors to infer changes from the submission payload shape.
+
+Because each published version is immutable and addressable, we no longer need to store a full copy of the form document on every submission (as forms-runner does today) simply to guarantee that the form definition has not changed. Processors can resolve the correct document from `/api/v3/forms/:form_id/versions/:form_version` when needed.
 
 ### Schema changes
 
@@ -72,6 +74,8 @@ Immutability prevents deletion as part of normal operations. A separate process 
 - Version-aware processing. Processors can see which version a submission was made against and act accordingly, making downstream systems more resilient to change.
 - Graceful publishing. Users who have already started filling in a form can continue submitting against the version they began with, even if the form creator publishes a new version in the meantime.
 - Graceful archiving. When a form is archived, new users can be prevented from starting the form while users who have already started can finish and submit against the version they are on.
+- Implementing Save and Return. Pinning in-progress journeys to a `form_version` makes it easier to implement features such as Save and Return, where users leave part-way through and return later.
+- No stored form document per submission. Submissions need only reference `form_version`; the form document can be retrieved reliably from the API when the submission is processed.
 - Reverting to previous versions. Preserving all published versions makes it easier to implement future features allowing form creators to revert to a previous version of a form.
 - Audit trail. The full history of published form versions is preserved and addressable.
 
