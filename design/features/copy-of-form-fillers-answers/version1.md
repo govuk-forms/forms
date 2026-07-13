@@ -104,13 +104,13 @@ We asked the devs to confirm whether any issues might be created by some forms h
 
 ## Designs for form creators
 
-This feature required a combination of new content and iterations to existing content, for both form creators and form fillers. 
+This feature required a combination of new content and iterations to existing content for form creators and form fillers. 
 
-Welsh translations were also needed for new form-creator-facing content.  
+Welsh translations were also needed for new form-creator facing content.  
 
 ### Form-creator journey: summary
 
-The form-creator facing designs and content that were created or iterated for this feature were: 
+The following content for form creators was created or iterated for this feature: 
 
 - ‘Create a form’ task list page - new optional task (iteration)
 - ‘Give people the option to get a copy of their answers by email’ page (new)
@@ -228,7 +228,7 @@ The content below this reads:
 
 ### Form-filler journey: summary
 
-Form-filler facing designs and content that were created or iterated for this feature were: 
+The following content for form fillers was created or iterated for this feature: 
 
 - ‘Do you want to get an email with a copy of your answers?’ page (new)
 - ‘Use GOV.UK One Login to keep your information secure’ page (new) - only for those who choose to get a copy of their answers 
