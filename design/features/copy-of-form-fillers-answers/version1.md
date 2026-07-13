@@ -107,7 +107,7 @@ This feature required a combination of new content and iterations to existing co
 
 Welsh translations were also needed for new form-creator-facing content.  
 
-### Form-creator journey - summary
+### Form-creator journey: summary
 
 The form-creator facing designs and content that were created or iterated for this feature were: 
 
@@ -125,7 +125,7 @@ If the feature is enabled, the ‘what happens next’ page will include a new s
 
 The terminology used when routing someone to the end of the form has also changed - it’s now more generic (‘end of form’) rather than sending someone to the ‘Check your answers’ page, as this no longer works in all use cases. 
 
-### Form-filler journey - summary
+### Form-filler journey: summary
 
 Form-filler facing designs and content that were created or iterated for this feature were: 
 
@@ -151,7 +151,7 @@ If they decide to not get a copy, their journey will be:
 
 <img alt="screenshot is described in the following content" src="screenshots-v1/001-new-task-give-people-option-to-ask-for-answers.png" width="500">
 
-Description of the image and changes made:
+**Description of the image and changes made:**
 
 This screenshot shows the first section of the ‘Create a form’ task-list page - the H2 heading is ‘1. Create your form’. 
 
