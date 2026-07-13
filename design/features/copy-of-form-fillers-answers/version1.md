@@ -11,6 +11,7 @@
 
 - [What is this feature?](#what-is-this-feature)
 - [Key decisions](#key-decisions)
+- [Designs and content](#designs-and-content)
 
 ## What is this feature?
 
