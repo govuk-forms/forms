@@ -140,9 +140,9 @@ If they want a copy of their answers their journey will involve being taken thro
 
 If they request a copy of their answers, their journey will be: 
 
-Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Use GOV.UK One Login to keep your information secure’ page → GOV.UK One Login screens → back to GOV.UK Forms ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
+> Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Use GOV.UK One Login to keep your information secure’ page → GOV.UK One Login screens → back to GOV.UK Forms ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
 
 If they decide to not get a copy, their journey will be:
 
-Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
+> Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
 
