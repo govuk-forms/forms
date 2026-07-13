@@ -146,3 +146,219 @@ If they decide to not get a copy, their journey will be:
 
 > Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
 
+### ‘Create your form’ task-list page - new task added
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/001-new-task-give-people-option-to-ask-for-answers.png" width="500">
+
+Description of the image and changes made:
+
+This screenshot shows the first section of the ‘Create a form’ task-list page - the H2 heading is ‘1. Create your form’. 
+
+The first 4 rows show the mandatory tasks within this section, such as ‘Edit the name of your form’ and ‘Add and edit your questions’. At the end of each row is the status label for each task, such as ‘Not started’, ‘In progress’, or ‘Completed’.
+
+Beneath this is the H3 heading ‘Optional tasks’ followed by two optional task links, along with status labels, which read:
+
+> Add a link to a payment page on GOV.UK Pay - Optional
+> Give people the option to ask for a copy of their answers - Optional
+
+This second task is the new one. If selected, it takes form creators to the page that allows them to enable this feature for their form.
+
+### ‘Give people the option to get a copy of their answers by email’ - new page 
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/002-new-page-give-people-option-to-get-copy-of-answers-by-email.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows a new page with the H1 heading:
+
+> Give people the option to get a copy of their answers by email
+
+The text below reads:
+
+> You can give people who complete your form the option to get an email with a copy of their answers. We’ll ask if they want this after they’ve answered all the questions in your form. 
+
+> People only get a copy of their answers if they ask for it: you cannot make it mandatory.
+We use GOV.UK One Login to make sure answers are not sent to the wrong email address. 
+
+> If the person filling in the form does not have a GOV.UK One Login already, they’ll be asked to create one before submitting the form.
+
+This is followed by an H2 heading that reads:
+
+> Why you might not want to give people the option to get a copy of their answers
+
+The text below reads:
+
+> If someone already has a GOV.UK One Login, it will usually be linked to their personal email address. So there’s a chance the answers will be sent to their personal email address, even if they’re filling in the form in a work capacity.
+
+> If they need to create a new GOV.UK One Login, this adds an extra step - meaning there’s a chance they might not come back and complete the form.
+
+> So only allow this option if there’s a real need for people to be able to request a copy of their answers.
+
+There’s then another H2 heading that reads: 
+
+> Do you want to give people the option to get a copy of their answers by email?
+
+This is followed by a checkbox input and the label:
+
+> Give people the option to get a copy of their answers by email - I’m ok with the risk
+
+Form creators must check this box if they want to to allow form fillers to request a copy of their answers. 
+
+There’s then a green ‘Save and continue’ button.
+
+### ‘Add information about what happens next’ page - new sentence added
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/003-add-information-about-what-happens-next-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows the page with the H1 heading ‘Add information about what happens next’.
+
+The content has stayed largely the same and summarises what people can do on this page, which is to add information telling people what will happen after they’ve submitted their form. There’s also an example of some possible wording using inset text. 
+
+The page also explains when the content will be shown - once someone’s submitted a form, and in the optional email confirmation. 
+
+The only change is the addition of a second sentence to this final paragraph about the optional email confirmation. This now reads:
+
+> The optional email confirmation will also include the contact details you provide for the form, and the date and time of submission. If you’ve given people the option to ask for a copy of their answers - and the person filling in the form requests this - their answers will be added to the confirmation email.
+
+There’s then more inset text explaining that a unique GOV.UK Forms reference number will be added to the confirmation page and email. 
+
+### Live form view - new heading added
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/004-live-form-view-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows a snippet of the Mural design for the live form view of a page - this is the page that form creators will see once they’ve published their form. 
+
+The screenshot shows a number of the H3 headings on this page, from the ‘What happens next information’ H3 down to the ‘Privacy policy link’ H3.
+
+The new heading sits below the H3 ‘GOV.UK Pay payment link’, and above the ‘How you get completed forms’ H3. This mirrors the ordering on the task list page. 
+
+The new H3 heading reads:
+
+> People can ask for a copy of their answers
+
+The content below this reads:
+
+> You’ve opted to let people ask to be sent a copy of their answers after they’ve filled in the form
+
+### ‘Do you want to get an email with a copy of your answers?’ - new page
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/005-do-you-want-email-with-copy-of-answers-new-page.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows the new page that form fillers will see once they’ve finished answering all the questions in a form. 
+
+It has an H1 heading that reads:
+
+> Do you want to get an email with a copy of your answers?
+
+This is followed by some hint text that reads:
+
+> You’ll need a GOV.UK One Login for this - you’ll be able to sign in or create a new one. 
+
+There are then 2 radio buttons with the labels ‘Yes’ and ‘No’, and a green ‘Continue’ button. 
+
+### ‘Use GOV.UK One Login to keep your information secure’ - new page
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/006-use-gov.uk-one-login-to-keep-information-secure-new-page.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows a new page that form fillers will see if they select ‘Yes’ when asked if they want to get an email with a copy of their answers. 
+
+The H1 heading reads:
+
+> Use GOV.UK One Login to keep your information secure 
+
+The text below reads:
+
+> The email with your answers will be sent to the email address linked to your GOV.UK One Login.
+
+> If you need the answers sent to a different email address - for example, your work email - you can create a new GOV.UK One Login.
+
+This is followed by a green button with the text ‘Continue to GOV.UK One Login’.
+
+### ‘Check your answers before submitting’ page, if someone says ‘no’ to getting a copy of their answers - new heading, row and sentence
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows changes made to the ‘Check your answers’ page if someone says ‘no’ to getting a copy of their answers. 
+
+The H1 heading is the same as usual - ‘Check your answers before submitting your form’
+
+Beneath this are 4 rows divided by horizontal grey lines. Each row shows a question title in bold text, the form filler’s answer to that question, and a blue ‘Change’ link at the end of each row. This is also the same as usual.
+
+Below these 4 questions is a new H2 heading, which reads:
+
+>  You’ve chosen to not get a copy of your answers
+
+There’s another row beneath this heading, which shows the bold text ‘Get a copy of your answers’, followed by the word ‘No’. There’s also a ‘Change’ link at the end of the row.
+
+Beneath this is the usual H2 heading that reads: 
+
+> Do you want to get an email confirming your form has been submitted?
+
+The hint text below this includes a new second sentence that will be added if someone’s said they do not want a copy of their answers. It reads: 
+
+> We’ll only use the email address you provide here to send a confirmation that your form’s been successfully submitted. It will not contain a copy of your answers.
+
+This is followed by 2 radio buttons with the label text ‘Yes’ and ‘No. 
+
+### ‘Check your answers before submitting’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/008-check-your-answers-if-requests-copy-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot of the Mural design shows changes made to the ‘Check your answers’ page if someone says ‘yes’ to getting a copy of their answers. 
+
+The H1 heading is ‘Check your answers before submitting’.
+
+Beneath this are 2 rows divided by horizontal grey lines. Each row shows a question title in bold text, the form filler’s answer to that question, and a blue ‘Change’ link at the end of each row. 
+
+This is followed by a new sentence that reads:
+
+> We’ll send a confirmation email with a copy of your answers to your GOV.UK One Login email address: email@domain.com
+
+Below that is some declaration text and a green ‘Submit’ button.
+
+### ‘Your form has been submitted’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/009-form-submitted-page-if-yes-to-copy-of-answers-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows the additional text added to the ‘Your form has been submitted’ page if someone has requested a copy of their answers.
+
+There’s a green banner saying ‘Your form has been submitted’ in large, bold white font. This is followed by the form reference number in smaller white font.
+
+Beneath this banner is a sentence that reads:
+
+> We’ve sent you a confirmation email with a copy of your answers.
+
+As usual, the H2 heading ‘What happens next’ appears beneath this, with whatever information the form creator has added to this section. 
+
+### Confirmation email showing answers (iteration)
+
+[IMAGE](010-confirmation-email-showing-answers-iteration.png)
+
+<img alt="screenshot is described in the following content" src="screenshots-v1/010-confirmation-email-showing-answers-iteration.png" width="500">
+
+**Description of the image and changes made:**
+
+This screenshot shows a Mural mock-up of how a confirmation email will look if a form filler has requested a copy of their answers.
+
+It shows the usual H2 heading, ‘Your form has been successfully submitted’. 
+
+This is followed by the form name, submission time and date and reference number.
+
+There’s then an H3 heading, ‘What happens next’, followed by some sample ‘what happens next’ text.  
+
+Next, there’s a new H3 heading, ‘Answers submitted’. The questions that the form filler has answered are listed below this heading, along with the answers. The question text is formatted as an H4 heading. There’s a grey horizontal line between each question and answer.
+
