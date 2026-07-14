@@ -139,6 +139,7 @@ The first 4 rows show the mandatory tasks within this section, such as ‘Edit t
 Beneath this is the H3 heading ‘Optional tasks’ followed by two optional task links, along with status labels, which read:
 
 > Add a link to a payment page on GOV.UK Pay - Optional
+> 
 > Give people the option to ask for a copy of their answers - Optional
 
 This second task is the new one. If selected, it takes form creators to the page that allows them to enable this feature for their form.
