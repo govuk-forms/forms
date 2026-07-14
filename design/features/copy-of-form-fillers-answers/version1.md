@@ -313,7 +313,7 @@ The hint text below this includes a new second sentence that will be added if so
 
 This is followed by 2 radio buttons with the label text ‘Yes’ and ‘No. 
 
-### ‘Check your answers before submitting’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
+### ‘Check your answers before submitting’ page, if ‘yes’ to getting a copy of their answers - sentence change
 
 <img alt="screenshot is described in the following content" src="screenshots-v1/008-check-your-answers-if-requests-copy-iteration.png" width="400">
 
