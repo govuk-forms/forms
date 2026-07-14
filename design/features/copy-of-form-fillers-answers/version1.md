@@ -128,7 +128,7 @@ The terminology used when routing someone to the end of the form has also change
 
 ### ‘Create your form’ task-list page - new task added
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/001-new-task-give-people-option-to-ask-for-answers.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/001-new-task-give-people-option-to-ask-for-answers.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -146,7 +146,7 @@ This second task is the new one. If selected, it takes form creators to the page
 
 ### ‘Give people the option to get a copy of their answers by email’ - new page 
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/002-new-page-give-people-option-to-get-copy-of-answers-by-email.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/002-new-page-give-people-option-to-get-copy-of-answers-by-email.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -189,7 +189,7 @@ There’s then a green ‘Save and continue’ button.
 
 ### ‘Add information about what happens next’ page - new sentence added
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/003-add-information-about-what-happens-next-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/003-add-information-about-what-happens-next-iteration.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -207,7 +207,7 @@ There’s then more inset text explaining that a unique GOV.UK Forms reference n
 
 ### Live form view - new heading added
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/004-live-form-view-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/004-live-form-view-iteration.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -251,7 +251,7 @@ If they decide to not get a copy, their journey will be:
 
 ### ‘Do you want to get an email with a copy of your answers?’ - new page
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/005-do-you-want-email-with-copy-of-answers-new-page.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/005-do-you-want-email-with-copy-of-answers-new-page.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -269,7 +269,7 @@ There are then 2 radio buttons with the labels ‘Yes’ and ‘No’, and a gre
 
 ### ‘Use GOV.UK One Login to keep your information secure’ - new page
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/006-use-gov.uk-one-login-to-keep-information-secure-new-page.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/006-use-gov.uk-one-login-to-keep-information-secure-new-page.png" width="450">
 
 **Description of the image and changes made:**
 
@@ -289,7 +289,7 @@ This is followed by a green button with the text ‘Continue to GOV.UK One Login
 
 ### ‘Check your answers before submitting’ page, if someone says ‘no’ to getting a copy of their answers - new heading, row and sentence
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="400">
 
 **Description of the image and changes made:**
 
@@ -317,7 +317,7 @@ This is followed by 2 radio buttons with the label text ‘Yes’ and ‘No.
 
 ### ‘Check your answers before submitting’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/008-check-your-answers-if-requests-copy-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/008-check-your-answers-if-requests-copy-iteration.png" width="400">
 
 **Description of the image and changes made:**
 
@@ -335,7 +335,7 @@ Below that is some declaration text and a green ‘Submit’ button.
 
 ### ‘Your form has been submitted’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/009-form-submitted-page-if-yes-to-copy-of-answers-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/009-form-submitted-page-if-yes-to-copy-of-answers-iteration.png" width="400">
 
 **Description of the image and changes made:**
 
@@ -353,7 +353,7 @@ As usual, the H2 heading ‘What happens next’ appears beneath this, with what
 
 [IMAGE](010-confirmation-email-showing-answers-iteration.png)
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/010-confirmation-email-showing-answers-iteration.png" width="500">
+<img alt="screenshot is described in the following content" src="screenshots-v1/010-confirmation-email-showing-answers-iteration.png" width="400">
 
 **Description of the image and changes made:**
 
