@@ -156,10 +156,10 @@ This screenshot shows a new page with the H1 heading:
 The text below reads:
 
 > You can give people who complete your form the option to get an email with a copy of their answers. We’ll ask if they want this after they’ve answered all the questions in your form. 
-
+>
 > People only get a copy of their answers if they ask for it: you cannot make it mandatory.
 We use GOV.UK One Login to make sure answers are not sent to the wrong email address. 
-
+>
 > If the person filling in the form does not have a GOV.UK One Login already, they’ll be asked to create one before submitting the form.
 
 This is followed by an H2 heading that reads:
@@ -169,9 +169,9 @@ This is followed by an H2 heading that reads:
 The text below reads:
 
 > If someone already has a GOV.UK One Login, it will usually be linked to their personal email address. So there’s a chance the answers will be sent to their personal email address, even if they’re filling in the form in a work capacity.
-
+>
 > If they need to create a new GOV.UK One Login, this adds an extra step - meaning there’s a chance they might not come back and complete the form.
-
+>
 > So only allow this option if there’s a real need for people to be able to request a copy of their answers.
 
 There’s then another H2 heading that reads: 
@@ -281,7 +281,7 @@ The H1 heading reads:
 The text below reads:
 
 > The email with your answers will be sent to the email address linked to your GOV.UK One Login.
-
+>
 > If you need the answers sent to a different email address - for example, your work email - you can create a new GOV.UK One Login.
 
 This is followed by a green button with the text ‘Continue to GOV.UK One Login’.
