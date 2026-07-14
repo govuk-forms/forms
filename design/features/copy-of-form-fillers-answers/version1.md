@@ -287,7 +287,7 @@ This is followed by a green button with the text ‘Continue to GOV.UK One Login
 
 ### ‘Check your answers before submitting’ page, if ‘no’ to getting a copy of their answers - new heading, row and sentence
 
-<img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="400">
+<img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="380">
 
 **Description of the image and changes made:**
 
