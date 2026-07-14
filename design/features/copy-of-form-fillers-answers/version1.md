@@ -349,8 +349,6 @@ As usual, the H2 heading ‘What happens next’ appears beneath this, with what
 
 ### Confirmation email showing answers (iteration)
 
-[IMAGE](010-confirmation-email-showing-answers-iteration.png)
-
 <img alt="screenshot is described in the following content" src="screenshots-v1/010-confirmation-email-showing-answers-iteration.png" width="400">
 
 **Description of the image and changes made:**
