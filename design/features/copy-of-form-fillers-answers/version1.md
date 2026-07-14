@@ -104,27 +104,25 @@ We asked the devs to confirm whether any issues might be created by some forms h
 
 ## Designs for form creators
 
-This feature required a combination of new content and iterations to existing content for form creators and form fillers. 
+This feature required a combination of new content and iterations to existing content for both form creators and form fillers. Welsh translations were also needed for new form-creator facing content.  
 
-Welsh translations were also needed for new form-creator facing content.  
-
-### Form-creator journey: summary
-
-The following content for form creators was created or iterated for this feature: 
-
-- ‘Create a form’ task list page - new optional task (iteration)
-- ‘Give people the option to get a copy of their answers by email’ page (new)
-- ‘Add information about what happens next’ page - new sentence if someone wants a copy of their answers (iteration)
-- Live form view - new section if people can ask for a copy of their answers (iteration)
-- Routing-related content - refers to the ‘end of the form’ instead of ‘Check your answers before submitting’ (iteration)
+### Form-creator journey: overview and what's changed
 
 The form-creator journey for this feature starts with a new optional task on the task-list page. If selected, this leads to a new page that allows form creators to give people the option to get a copy of their answers by email. 
 
 If a form creator selects the checkbox and clicks ‘Save and continue’, a success banner confirming that people will be able to get a copy of their answers appears. If they click ‘Save and continue’ without selecting the checkbox, a success banner confirming that people will not be able to get a copy of their answers will show instead.
 
-If the feature is enabled, the ‘what happens next’ page will include a new sentence stating that a form filler’s answers will be added to a confirmation email when they’ve submitted their form. The ‘live form view’ page will also display a new section stating that ‘People can ask for a copy of their answers’.
+If the feature is enabled, the ‘What happens next’ page will include a new sentence stating that a form filler’s answers will be added to a confirmation email when they’ve submitted their form. The ‘live form view’ page will also display a new section stating that ‘People can ask for a copy of their answers’.
 
 The terminology used when routing someone to the end of the form has also changed - it’s now more generic (‘end of form’) rather than sending someone to the ‘Check your answers’ page, as this no longer works in all use cases. 
+
+The following content for form creators was created or iterated for this feature: 
+
+- ‘Create your form’ task list page (iteration) - new optional task 
+- ‘Give people the option to get a copy of their answers by email’ page (new)
+- ‘Add information about what happens next’ page (iteration) - new sentence if someone wants a copy of their answers 
+- Live form view (iteration) - new section if people can ask for a copy of their answers 
+- Routing-related content (iteration) - refers to the ‘end of the form’ instead of ‘Check your answers before submitting’ 
 
 ### ‘Create your form’ task-list page - new task added
 
@@ -132,7 +130,7 @@ The terminology used when routing someone to the end of the form has also change
 
 **Description of the image and changes made:**
 
-This screenshot shows the first section of the ‘Create a form’ task-list page - the H2 heading is ‘1. Create your form’. 
+This screenshot shows the first section of the ‘Create your form’ task-list page - the H2 heading is ‘1. Create your form’. 
 
 The first 4 rows show the mandatory tasks within this section, such as ‘Edit the name of your form’ and ‘Add and edit your questions’. At the end of each row is the status label for each task, such as ‘Not started’, ‘In progress’, or ‘Completed’.
 
@@ -227,17 +225,9 @@ The content below this reads:
 
 ## Designs for form fillers
 
-### Form-filler journey: summary
+### Form-filler journey: overview and what's changed
 
-The following content for form fillers was created or iterated for this feature: 
-
-- ‘Do you want to get an email with a copy of your answers?’ page (new)
-- ‘Use GOV.UK One Login to keep your information secure’ page (new) - only for those who choose to get a copy of their answers 
-- ‘Check your answers before submitting’ page (iteration) - 2 different versions, depending on whether someone wants a copy of their answers or not 
-- ‘Your form has been submitted’ page (iteration) - only for those who choose to get a copy of their answers (iteration)
-- Confirmation email with copy of a form filler’s answers (iteration) - email includes answers, if someone’s requested this
-
-The form-filler journey now varies depending on whether someone chooses to get a confirmation email with a copy of their answers or not, if enabled. 
+The form-filler journey now varies depending on whether someone chooses to get a confirmation email with a copy of their answers or not. 
 
 If they want a copy of their answers their journey will involve being taken through the GOV.UK One Login journey before being returned to GOV.UK Forms to submit their form. 
 
@@ -248,6 +238,14 @@ If they request a copy of their answers, their journey will be:
 If they decide to not get a copy, their journey will be:
 
 > Finish answering questions → ‘Do you want to get an email with a copy of your answers?’ page → ‘Check your answers before submitting’ page → ‘Your form has been submitted’ page
+
+The following content for form fillers was created or iterated for this feature: 
+
+- ‘Do you want to get an email with a copy of your answers?’ page (new)
+- ‘Use GOV.UK One Login to keep your information secure’ page (new) - only for those who choose to get a copy of their answers 
+- ‘Check your answers before submitting’ page (iteration) - 2 different versions, depending on whether someone wants a copy of their answers or not 
+- ‘Your form has been submitted’ page (iteration) - only for those who choose to get a copy of their answers
+- Confirmation email with copy of a form filler’s answers (iteration) - email includes answers, if someone’s requested this
 
 ### ‘Do you want to get an email with a copy of your answers?’ - new page
 
@@ -287,7 +285,7 @@ The text below reads:
 
 This is followed by a green button with the text ‘Continue to GOV.UK One Login’.
 
-### ‘Check your answers before submitting’ page, if someone says ‘no’ to getting a copy of their answers - new heading, row and sentence
+### ‘Check your answers before submitting’ page, if ‘no’ to getting a copy of their answers - new heading, row and sentence
 
 <img alt="screenshot is described in the following content" src="screenshots-v1/007-check-your-answers-if-no-copy-iteration.png" width="400">
 
@@ -333,7 +331,7 @@ This is followed by a new sentence that reads:
 
 Below that is some declaration text and a green ‘Submit’ button.
 
-### ‘Your form has been submitted’ page, if someone says ‘yes’ to getting a copy of their answers - sentence change
+### ‘Your form has been submitted’ page, if ‘yes’ to getting a copy of their answers - sentence change
 
 <img alt="screenshot is described in the following content" src="screenshots-v1/009-form-submitted-page-if-yes-to-copy-of-answers-iteration.png" width="400">
 
