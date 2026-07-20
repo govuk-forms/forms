@@ -311,7 +311,7 @@ The hint text below this includes a new second sentence that will be added if so
 
 > We’ll only use the email address you provide here to send a confirmation that your form’s been successfully submitted. It will not contain a copy of your answers.
 
-This is followed by 2 radio buttons with the label text ‘Yes’ and ‘No. 
+This is followed by 2 radio buttons with the label text ‘Yes’ and ‘No’. 
 
 ### ‘Check your answers before submitting’ page, if ‘yes’ to getting a copy of their answers - sentence change
 
