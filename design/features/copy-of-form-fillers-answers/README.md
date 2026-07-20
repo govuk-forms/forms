@@ -17,7 +17,7 @@ Form creators will be able to choose whether or not to enable this feature.
 
 ## Why
 We were aware that form fillers not being able to receive a copy of their answers could be a potential blocker for some forms and processes. 
-A number of organisations, including Companies House and the Insolvency Service, told us that they were interested in this feature and wanted their users to have this option.
+A number of organisations told us that they were interested in this feature and wanted their users to have this option.
 
 We’d previously considered asking form fillers if they wanted a copy of their answers at the point they chose whether to request a confirmation email. But it became clear that there were data security issues with this - for example, people could enter the wrong email address. 
 
