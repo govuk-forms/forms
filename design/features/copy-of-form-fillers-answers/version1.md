@@ -46,11 +46,11 @@ The thinking was that form fillers who are already signed in or using the app wi
 
 ### Scope 
 
-We agreed the following:
+We agreed that:
   	
-- We’ll make it optional for form fillers to get a copy of their answers initially, and will monitor form creator usage/feedback on this
-- The submission email to form creators won’t specify whether form fillers have opted to receive a confirmation email or not - we’ll wait for feedback from form creators about this
-- We’ll use SES to send the confirmation email with a copy of someone’s answers
+- we’ll make it optional for form fillers to get a copy of their answers initially, and will monitor form creator usage/feedback on this
+- the submission email to form creators won’t specify whether form fillers have opted to receive a confirmation email or not - we’ll wait for feedback from form creators about this
+- we’ll use SES to send the confirmation email with a copy of someone’s answers
 
 ### Design decisions
 
@@ -62,10 +62,10 @@ We considered various possibilities about where the option to request a copy of 
 
 These included:
 
-- The ‘Check your answers’ page
-- The start of the form
-- After submitting the form (this would not work well with adding a payment link)
-- A new page before the ‘Check your answers’ page
+- the ‘Check your answers’ page
+- the start of the form
+- after submitting the form (this would not work well with adding a payment link)
+- a new page before the ‘Check your answers’ page
 
 In the end, we decided to design a new page that form fillers would see after answering all the form’s questions but before the ‘Check your answers’ page where a form is submitted. 
 
