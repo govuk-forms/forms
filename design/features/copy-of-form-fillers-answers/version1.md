@@ -50,7 +50,7 @@ We agreed that:
   	
 - we’ll make it optional for form fillers to get a copy of their answers initially, and will monitor form creator usage/feedback on this
 - the submission email to form creators won’t specify whether form fillers have opted to receive a confirmation email or not - we’ll wait for feedback from form creators about this
-- we’ll use SES to send the confirmation email with a copy of someone’s answers
+- we’ll use AWS SES to send the confirmation email with a copy of someone’s answers - we're already using this service to send submission emails
 
 ### Design decisions
 
@@ -79,7 +79,7 @@ The potential benefits of making this optional for form creators are that it wou
 
 - allow the form creator to avoid the risk of their form fillers getting distracted or lost in the GOV.UK One Login journey unnecessarily - for example, if it’s not really relevant or useful for a specific form
 - give us the opportunity to make sure they're aware of what this feature means for the form filler, when it might be useful to turn it on, and what the potential risks are
-- place the responsibility for the choice and risk with the form creator rather than with GOV.UK Forms
+- allow form creators to manage the risk - rather than GOV.UK Forms making the decision for them
 - mean that this would not be automatically turned on for all forms, which would reduce risk generally for a new feature
 
 This led to our decision that even if the feature is turned on by the form creator, form fillers should still get a choice about whether they want to receive a copy of their answers.
