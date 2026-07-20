@@ -90,7 +90,7 @@ Our main concern after the Hackathon was what happens if the form filler doesn�
 
 We considered ways to mitigate this risk and reconsidered the journey, but ended up sticking with our plan. 
 
-We raised a feature request to improve this with GOV.UK One Login, but it isn’t likely to be dealt with very quickly. For now, we’ve tried to mitigate this risk as much as possible by outlining the potential risk in the new content for form creators. 
+We raised a feature request to improve this with GOV.UK One Login. In the interim, we’ve tried to mitigate this risk as much as possible by outlining the potential risk in the new content for form creators. 
 
 We decided to be explicit about the fact that this risk exists and that it’s for form creators to decide if they feel it’s a risk worth taking. By adding a checkbox to the new ‘Give people the option to get a copy of their answers by email’ page we aimed to reduce the chance of form creators enabling this feature without considering the possible consequences. The checkbox label is ‘Give people the option to get a copy of their answers by email - I’m ok with the risk’.
 
