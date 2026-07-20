@@ -11,7 +11,7 @@ Until now, form fillers could choose to get an email confirming that their form 
 
 This new feature lets people request a copy of their answers, which will be included in the optional confirmation email.
 
-In order to make this more secure, form fillers who want a copy of their answers will be asked to first sign into their GOV⁠.⁠UK One Login, or create a new one. We want them to use the email address linked to their GOV.UK One Login to help make sure that answers are not sent to the wrong email address.
+To help make sure that answers go to the right place, we use GOV.UK One Login to authenticate the form filler's email address. They can either use their existing GOV.UK One Login, or create a new one.
 
 Form creators will be able to choose whether or not to enable this feature. 
 
