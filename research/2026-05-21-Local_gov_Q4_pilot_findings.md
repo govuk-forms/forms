@@ -1,4 +1,4 @@
-# Q4 Logal government pilot findings
+# Q4 Local government pilot findings
 
 ## 2026-05-21 / Q4 2025/26
 
@@ -28,7 +28,7 @@ By the end of Q4, no councils had published any forms and 1 had signed the agree
 3 positions we heard:
  * Want to use it now - there are some not ideal things but they don’t matter for some forms 
  * Might consider using it in future - there are quite a few things we’d need to iron out 
- * Would not consider using it any time soon - it would be their main platform, which it can’t do currently
+ * Would not consider using it any time soon - they'd want it to be their main platform but it doesn't yet have the functionality to replace existing tools
 
 Top rated blockers
 * Branding and customisation
@@ -45,7 +45,7 @@ Top rated blockers
 
 ### Learning outcome 2: How much operational work (e.g. support) we might expect to be associated with local government organisations adopting GOV.UK Forms
 * Support topics unlikely to change 
-* Volume hard to predict, but likely to grow somewhat 
+* Volume hard to test and predict, but likely to grow somewhat and we might expect it to grow proportionally similarly to central government 
 * Potential new types of support/ engagement activities could create new work around community and collaboration on shared problems
 
 ### Learning outcome 3: How much growth we might expect as we allow local government to adopt GOV.UK Forms, in terms of organisations, forms and submissions
