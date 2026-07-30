@@ -40,7 +40,7 @@ Can people easily:
 More than half of participants struggled to find where or how to add routes. They:
 - couldn’t find the ‘Edit question routes’ button
 - didn't read the content on the empty routes page that said they needed to add more questions
-- They didn't understand why their options were not shown on the routes page because they set the question up to accept more than one option
+- didn't understand why their options were not shown on the routes page (when they'd set the question up to accept more than one option)
 
 When searching for how to add routes, people often went to the Edit question link.
 They would usually focus on the options area of the edit question page, or go into editing the options.
