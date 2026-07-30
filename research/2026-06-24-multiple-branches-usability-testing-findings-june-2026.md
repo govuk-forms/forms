@@ -64,7 +64,7 @@ Again, the amount of numbers and text on the page made the task more difficult.
 ### Understand what routing is in place in a form
 
 Those who used the route descriptions seemed able to understand them with a bit of focus.
-There seemed to be potentially a challenge when how the route is written in the original form is structured differently to the platform.
+
 There seemed to be potentially a challenge when how the route is written in the original form is structured differently to the platform.
 
 ### Using the keyboard to navigate (one participant)
