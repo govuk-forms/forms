@@ -1,6 +1,6 @@
 # Multiple branches usability testing June 2026
 
-## 2060-06-16 / Sprint 5 (Q1)
+## 2026-06-16 / Sprint 5 (Q1)
 
 ## Aims
 - To understand how usable the design is.
