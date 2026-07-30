@@ -72,7 +72,8 @@ There seemed to be potentially a challenge when how the route is written in the 
 They were the only person who seemed very nervous about making mistakes.
 
 They were keen to be able to edit the routes for just one question at a time.
-Their main limitation is scrolling the page while also using the keyboard to interact with the page.
+
+Their main limitation was scrolling the page while also using the keyboard to interact with the page.
 
 ### Impact for people with neurodivergent condtions
 
