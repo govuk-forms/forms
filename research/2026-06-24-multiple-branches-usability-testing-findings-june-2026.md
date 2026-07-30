@@ -37,7 +37,7 @@ Half of people set up the question wrongly. Most commonly, they set up the list 
 
 ### Finding where to add routes
 
-More than half of participants struggled to find where or how to add routes, for these reasons:
+More than half of participants struggled to find where or how to add routes. They:
 - They couldn’t find the ‘Edit question routes’ button
 - They didn't the empty routes page shown when they needed to add more questions
 - They didn't understand why their options were not shown on the routes page because they set the question up to accept more than one option
