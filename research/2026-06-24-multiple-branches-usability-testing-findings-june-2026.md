@@ -32,7 +32,7 @@ Can people easily:
 
 ### Adding the questions
 
-People work from a range of formats when creating their forms
+- People work from a range of formats when creating their forms
 Half of people set up the question wrongly. Most commonly, they set up the list question to accept one or more options.
 
 ### Finding where to add routes
