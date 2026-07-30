@@ -47,7 +47,7 @@ They would usually focus on the options area of the edit question page, or go in
 
 ### Adding routes
 
-Once on the Edit routes page, if the questions were set up correctly, they understood how it worked.They generally used the dropdowns to change the options quite easily.
+Once on the Edit routes page, if the questions were set up correctly, they understood how it worked. They generally used the dropdowns to change the options quite easily.
 
 However, people commented on the amount of stuff on the page making it more difficult, especially text and numbers.
 
