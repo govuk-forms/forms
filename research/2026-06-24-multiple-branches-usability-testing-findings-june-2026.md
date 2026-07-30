@@ -81,7 +81,7 @@ Due to the interaction of other characteristics (experience level and job role),
 
 In some aspects, people with conditions had a better experience and in some areas it was worse, but this was also associated with their experience level, and whether or not they were a content designer.
 
-People with conditions were almost exclusively the people talking about the amount and presentation of the information on the ‘Edit question routes’.
+People with conditions were almost exclusively the people talking about the amount and presentation of the information on the ‘Edit question routes’ page.
 
 ## Supporting Evidence
 - [Report](https://docs.google.com/presentation/d/17oKU8GmFwv581oZGF-01JmcLt_LdqmLIV8RQvS7ba3c/edit?usp=drive_link)
