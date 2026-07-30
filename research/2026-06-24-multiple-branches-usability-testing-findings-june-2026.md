@@ -75,7 +75,7 @@ They were keen to be able to edit the routes for just one question at a time.
 
 Their main limitation was scrolling the page while also using the keyboard to interact with the page.
 
-### Impact for people with neurodivergent condtions
+### Impact for people with neurodivergent conditions
 
 Due to the interaction of other characteristics (experience level and job role), it was challenging to identify the causes of the behaviour of people with conditions.
 
