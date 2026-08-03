@@ -40,7 +40,7 @@ Generally, participants found the new way of adding routing straightforward, cle
 - 2 participants got  pretty confused during the session about whether they had done their routing correctly (they both actually had).
 
 **Challenge with longer page**
-2 participants anticipated it would become more difficult with a longer form - especially when changing the order of questions and routes
+- 2 participants anticipated it would become more difficult with a longer form - especially when changing the order of questions and routes
 
 ### General
 
