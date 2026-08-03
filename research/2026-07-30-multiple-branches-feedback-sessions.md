@@ -1,4 +1,4 @@
-# Feedback on real usage of the new branching feature
+# Feedback on real usage of the new multiple branching feature
 
 ## 2026-07-30 / Sprint 1 (Q2)
 
